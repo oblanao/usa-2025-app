@@ -99,3 +99,19 @@ export type Store = {
   type: string;
   website_link: string;
 };
+
+export type Trip = {
+  id: string;
+  name: string;
+  tagline: string;
+  featured_image: string;
+  timestamp_start: string;
+  timestamp_end: string;
+};
+
+export type Traveler = {
+  id: string;
+  name: string;
+  avatar: string;
+  display_name: string;
+};

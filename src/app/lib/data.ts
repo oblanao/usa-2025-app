@@ -10,6 +10,8 @@ import {
   Tour,
   Transfer,
   Store,
+  Trip,
+  Traveler,
 } from './types';
 
 const dataDirectory = path.join(process.cwd(), 'data');
@@ -107,6 +109,14 @@ export async function getStores(): Promise<Store[]> {
 export async function getStoreById(id: string): Promise<Store | undefined> {
   const stores = await getStores();
   return stores.find(store => store.id === id);
+}
+
+export async function getTrips(): Promise<Trip[]> {
+  return readJsonFile<Trip[]>('trips.json');
+}
+
+export async function getTravelers(): Promise<Traveler[]> {
+  return readJsonFile<Traveler[]>('travelers.json');
 }
 
 export async function getReferencedItem(

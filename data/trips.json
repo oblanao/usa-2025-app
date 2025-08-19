@@ -2,8 +2,8 @@
   {
     "id": "usa-2025",
     "name": "USA 2025",
-    "tagline": "Golden Gate to Hollywood Dreams - An Epic American Adventure",
-    "featured_image": "https://placehold.co/1200x800/4A90E2/FFFFFF?text=USA+2025+Adventure",
+    "tagline": "Epic American Adventure",
+    "featured_image": "/images/trip-poster.png",
     "timestamp_start": "2025-08-26T07:00:00+03:00",
     "timestamp_end": "2025-09-10T20:10:00+03:00"
   }
