@@ -1,0 +1,44 @@
+[
+  {
+    "id": "sf-accommodation",
+    "place": "san-francisco",
+    "address": "59 Pierce Street, San Francisco, CA 94117",
+    "timestamp_checkin_local_time": "2025-08-26T15:00:00-07:00",
+    "timestamp_checkout_local_time": "2025-08-30T10:00:00-07:00",
+    "title": "Spacious 1 Bed Suite in Painted Lady-Duboce Park",
+    "brief_description": "Charming one-bedroom suite in a beautifully restored Victorian house in the heart of Duboce Park neighborhood. Walking distance to Alamo Square's famous Painted Ladies and easy access to Golden Gate Park. Features modern amenities in historic setting with private patio access.",
+    "cost": "$1210",
+    "contact_details": "Terry: +1 415-724-5770",
+    "checkin_instructions": "Self check-in with lockbox. Host will provide code and detailed instructions 24 hours before arrival.",
+    "free_cancellation": false,
+    "other_notes": "Maximum 4 guests, no pets allowed, no smoking inside but permitted on patio. Located in quiet residential area with excellent public transportation access."
+  },
+  {
+    "id": "hnl-accommodation",
+    "place": "honolulu",
+    "address": "444 Kānekapōlei Street, Honolulu, HI 96815",
+    "timestamp_checkin_local_time": "2025-08-30T15:00:00-10:00",
+    "timestamp_checkout_local_time": "2025-09-05T12:00:00-10:00",
+    "title": "Charming Studio Heart of Waikiki",
+    "brief_description": "Perfectly located studio apartment in the heart of Waikiki, just steps from the world-famous beach. Modern amenities with Hawaiian touches, kitchenette for light meals, and easy access to shopping, dining, and all Waikiki attractions. Ideal base for island exploration.",
+    "cost": "$1206",
+    "contact_details": "Mae: +1 808-218-8266",
+    "checkin_instructions": "Contact host upon arrival for key pickup. Building has secure entry, host will provide access codes.",
+    "free_cancellation": false,
+    "other_notes": "Maximum 2 guests, no pets allowed. Quiet hours 9:00 PM - 8:00 AM. Beach equipment and local guidebooks provided."
+  },
+  {
+    "id": "la-accommodation",
+    "place": "los-angeles",
+    "address": "1320 Keniston Avenue, Los Angeles, CA 90019",
+    "timestamp_checkin_local_time": "2025-09-05T15:00:00-07:00",
+    "timestamp_checkout_local_time": "2025-09-09T11:00:00-07:00",
+    "title": "LA's Loveliest In & Outdoor Spot, Super Location",
+    "brief_description": "Unique indoor-outdoor living space in trendy Mid-City neighborhood. Features beautiful garden area, modern interior design, and excellent location with easy access to Beverly Hills, Hollywood, Santa Monica, and downtown LA. Perfect blend of urban convenience and relaxed atmosphere.",
+    "cost": "$802",
+    "contact_details": "Leeah And Mic: +1 323-573-3901",
+    "checkin_instructions": "Self check-in with smart lock. Hosts will send access code and detailed house manual 24 hours before arrival.",
+    "free_cancellation": false,
+    "other_notes": "Maximum 2 guests, no pets allowed, no parties or events. Please conserve water and energy. Beautiful outdoor space perfect for morning coffee and evening relaxation."
+  }
+]

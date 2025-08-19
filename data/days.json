@@ -1,0 +1,92 @@
+[
+  {
+    "day_index": 1,
+    "date": "2025-08-26",
+    "brief_title": "Journey Begins - Arrival in the Golden City",
+    "description": "Cross the Atlantic and land in San Francisco, settling into the charming Duboce Park neighborhood while exploring iconic Painted Ladies and City Hall."
+  },
+  {
+    "day_index": 2,
+    "date": "2025-08-27",
+    "brief_title": "Alcatraz Island and Fisherman's Wharf Adventure",
+    "description": "Early morning ferry to the infamous prison island, followed by classic SF experiences including sea lions, sourdough bowls, and cable car rides."
+  },
+  {
+    "day_index": 3,
+    "date": "2025-08-28",
+    "brief_title": "Golden Gate Bridge and Mission District",
+    "description": "Iconic bridge walks with stunning bay views, optional Sausalito ferry, and evening exploration of vibrant Mission District culture."
+  },
+  {
+    "day_index": 4,
+    "date": "2025-08-29",
+    "brief_title": "Golden Gate Park and Twin Peaks Views",
+    "description": "Peaceful Japanese Tea Garden visit and panoramic city views from the observation tower and Twin Peaks summit."
+  },
+  {
+    "day_index": 5,
+    "date": "2025-08-30",
+    "brief_title": "Pacific Crossing to Paradise",
+    "description": "Morning departure from San Francisco, afternoon arrival in Waikiki, first Hawaiian sunset and beach exploration."
+  },
+  {
+    "day_index": 6,
+    "date": "2025-08-31",
+    "brief_title": "Botanical Gardens and Pillbox Trail",
+    "description": "Lush rainforest sanctuary exploration and challenging coastal hike with spectacular Mokulua Islands views."
+  },
+  {
+    "day_index": 7,
+    "date": "2025-09-01",
+    "brief_title": "Sunrise Hike and Sky-High Adventure",
+    "description": "Early morning Diamond Head crater climb followed by thrilling doors-off helicopter tour over Oahu's stunning landscapes."
+  },
+  {
+    "day_index": 8,
+    "date": "2025-09-02",
+    "brief_title": "Hollywood's Hawaii Backlot Experience",
+    "description": "Full-day adventure at Kualoa Ranch with movie site tours, UTV driving, and catamaran cruise along the windward coast."
+  },
+  {
+    "day_index": 9,
+    "date": "2025-09-03",
+    "brief_title": "Royal Palace and Downtown Culture",
+    "description": "Historic downtown Honolulu exploration with royal palace tour and King Kamehameha statue, plus relaxing Waikiki afternoon."
+  },
+  {
+    "day_index": 10,
+    "date": "2025-09-04",
+    "brief_title": "Rainforest Waterfall and Farewell Beach Day",
+    "description": "Final nature adventure through bamboo forests to Manoa Falls, followed by last moments in Waikiki paradise."
+  },
+  {
+    "day_index": 11,
+    "date": "2025-09-05",
+    "brief_title": "Island Paradise to City of Angels",
+    "description": "Evening departure from Hawaii with arrival in Los Angeles, settling into Mid-City neighborhood for final leg of adventure."
+  },
+  {
+    "day_index": 12,
+    "date": "2025-09-06",
+    "brief_title": "Beverly Hills Glamour and Hollywood Icons",
+    "description": "Luxury shopping on Rodeo Drive, celebrity star hunting on Hollywood Walk of Fame, and sunset views from Griffith Observatory."
+  },
+  {
+    "day_index": 13,
+    "date": "2025-09-07",
+    "brief_title": "Beach Vibes and Bohemian Culture",
+    "description": "Classic California beach day from Santa Monica Pier's rides to Venice Beach's eclectic boardwalk and street performers."
+  },
+  {
+    "day_index": 14,
+    "date": "2025-09-08",
+    "brief_title": "Movie Magic at Universal Studios",
+    "description": "Full day immersion in working movie studio with behind-the-scenes tours, Harry Potter wizardry, and Nintendo world adventures."
+  },
+  {
+    "day_index": 15,
+    "date": "2025-09-09",
+    "brief_title": "Final Memories and Homeward Journey",
+    "description": "Last morning in Los Angeles with packing and souvenir gathering before beginning the long journey home to Romania."
+  }
+]

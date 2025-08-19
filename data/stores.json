@@ -1,0 +1,38 @@
+[
+  {
+    "id": "golden-leaf-sf",
+    "place": "san-francisco",
+    "address": "Delivery Service - San Francisco Bay Area",
+    "hours_of_operation": "8:00 AM - 10:00 PM daily",
+    "name": "Golden Leaf",
+    "type": "vices",
+    "brief_description": "Premium cannabis delivery service in San Francisco offering high-quality vape pens, edibles, and other cannabis products. Legal recreational cannabis delivery with professional and discreet service throughout the Bay Area."
+  },
+  {
+    "id": "island-uplift-hnl",
+    "place": "honolulu",
+    "address": "Near Waikiki Beach area",
+    "hours_of_operation": "10:00 AM - 10:00 PM daily",
+    "name": "Island Uplift Shop",
+    "type": "vices",
+    "brief_description": "Local Hawaiian cannabis dispensary offering authentic island-grown products including tropical strain vape pens, edibles infused with local flavors, and traditional Hawaiian cannabis varieties. Licensed dispensary with knowledgeable staff about local cannabis culture."
+  },
+  {
+    "id": "traditional-mid-city-la",
+    "place": "los-angeles",
+    "address": "6 minutes from 1320 Keniston Avenue",
+    "hours_of_operation": "8:00 AM - 10:00 PM daily",
+    "name": "Traditional Mid-City",
+    "type": "vices",
+    "brief_description": "Established Los Angeles cannabis dispensary in Mid-City area offering wide selection of premium California cannabis products. Features traditional and modern strains, vape cartridges, edibles, and accessories with friendly neighborhood atmosphere."
+  },
+  {
+    "id": "international-market-place",
+    "place": "honolulu",
+    "address": "2330 Kalakaua Avenue, Honolulu, HI 96815",
+    "hours_of_operation": "10:00 AM - 9:00 PM daily",
+    "name": "International Market Place",
+    "type": "retail",
+    "brief_description": "Premier open-air retail destination in Waikiki's heart featuring over 75 shops including luxury retailers, local Hawaiian brands, and unique souvenir stores. Three-level shopping experience with authentic Hawaiian crafts, clothing, jewelry, and cultural items perfect for memorable gifts and keepsakes."
+  }
+]

@@ -1,0 +1,596 @@
+[
+  {
+    "place": "san-francisco",
+    "name": "Alcatraz Day Tour",
+    "description": "Alcatraz Island spans far more history than just its notorious prison years. Before becoming America's most infamous federal penitentiary from 1934-1963, this 22-acre island served as the West Coast's first lighthouse (1854), a Civil War fortress with 85 cannons, and a military prison.\n\nFrom 1969-1971, Native Americans occupied the island for 19 months as part of the Red Power movement, leaving political messages that are still preserved today. The island's name comes from Spanish explorer Juan Manuel de Ayala, who called it 'Isla de Alcatraces' (Island of Pelicans) in 1775.",
+    "did_you_know_fact": "Alcatraz was home to the West Coast's first-ever lighthouse, built in 1854.",
+    "type": "urban",
+    "top_highlights": [
+      "Award-winning 'Doing Time' audio tour",
+      "Historic cellhouse with 378 cells",
+      "Recreation yard and dining hall",
+      "Restored gardens with panoramic views",
+      "Spectacular ferry ride with city skyline views"
+    ],
+    "cost": "$91",
+    "duration": "3 hours",
+    "hours_of_operation": "8:40 AM - 6:30 PM daily",
+    "official_website_link": "https://www.alcatrazcitycruises.com",
+    "featured_image": "https://placehold.co/800x600/003049/FFFFFF?text=Alcatraz+Tour",
+    "images": [
+      "https://placehold.co/800x600/003049/FFFFFF?text=Alcatraz+Cellhouse"
+    ]
+  },
+  {
+    "place": "san-francisco",
+    "name": "Fishermen's Wharf and Pier 39",
+    "description": "Fishermen's Wharf and Pier 39 form San Francisco's most visited tourist destination, attracting over 12 million visitors annually. The area combines a working fishing industry with family-friendly attractions, from seafood stalls and souvenir shops to an aquarium and an observation wheel.\n\nThe famous California sea lions at Pier 39 only arrived after the 1989 Loma Prieta earthquake! A few sea lions began using K-Dock in October 1989, but by January 1990, their numbers had swelled to over 300, and they've made it their home ever since.",
+    "did_you_know_fact": "The famous California sea lions at Pier 39 only arrived after the 1989 Loma Prieta earthquake!",
+    "type": "walk",
+    "top_highlights": [
+      "California sea lions at K-Dock",
+      "Aquarium of the Bay",
+      "Fresh Dungeness crab and clam chowder in sourdough bowls",
+      "SkyStar observation wheel",
+      "Historic carousel and street performers"
+    ],
+    "cost": "$0",
+    "duration": "3 hours",
+    "hours_of_operation": "10:00 AM - 10:00 PM daily",
+    "official_website_link": "https://www.pier39.com",
+    "featured_image": "https://placehold.co/800x600/FCBF49/000000?text=Pier+39",
+    "images": ["https://placehold.co/800x600/FCBF49/000000?text=Sea+Lions"]
+  },
+  {
+    "place": "san-francisco",
+    "name": "Sausalito",
+    "description": "Sausalito offers the most spectacular views of the San Francisco Bay, city skyline, and Golden Gate Bridge from its perched position on the steep Marin Headlands. This charming, Mediterranean-style village is known for its artistic community and scenic waterfront.\n\nSausalito's famous houseboat community began as a post-WWII bohemian settlement when returning veterans and artists appropriated abandoned vessels from the hastily-closed Marinship Shipyards, creating a unique and vibrant floating neighborhood that still thrives today.",
+    "did_you_know_fact": "Sausalito's famous houseboat community began as a post-WWII bohemian settlement by artists appropriating abandoned vessels.",
+    "type": "sightseeing",
+    "top_highlights": [
+      "Scenic ferry rides from San Francisco",
+      "Spectacular Golden Gate Bridge views",
+      "Floating homes community at Waldo Point Harbor",
+      "Mediterranean-style village architecture",
+      "Waterfront shops, galleries, and restaurants"
+    ],
+    "cost": "$0",
+    "duration": "2.5 hours",
+    "hours_of_operation": "Shops typically 10:00 AM - 6:00 PM daily",
+    "official_website_link": "https://www.sausalito.org",
+    "featured_image": "https://placehold.co/800x600/EAE2B7/000000?text=Sausalito",
+    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Houseboats"]
+  },
+  {
+    "place": "san-francisco",
+    "name": "Lombard Street",
+    "description": "Known as 'The Crookedest Street in the World,' Lombard Street features eight sharp hairpin turns over just 600 feet in the Russian Hill neighborhood. The iconic, brick-paved road was designed in 1922 to reduce the hill's natural 27% grade, which was too steep for most vehicles.\n\nDespite its fame, Lombard Street isn't actually the world's crookedest street—it's not even the most crooked in San Francisco! That title belongs to Vermont Street in Potrero Hill, which has tighter curves, though Lombard is more scenic.",
+    "did_you_know_fact": "Lombard Street isn't the crookedest street in the world, or even in San Francisco!",
+    "type": "sightseeing",
+    "top_highlights": [
+      "Eight sharp hairpin turns",
+      "Beautiful hydrangea bushes blooming year-round",
+      "Brick-paved one-way downhill route",
+      "Spectacular city and bay views from the top",
+      "Iconic photo opportunity"
+    ],
+    "cost": "$0",
+    "duration": "30 minutes",
+    "hours_of_operation": "24 hours",
+    "official_website_link": "https://www.sftravel.com/things-to-do/attractions/famous-streets/lombard-street",
+    "featured_image": "https://placehold.co/800x600/D62828/FFFFFF?text=Lombard+Street",
+    "images": ["https://placehold.co/800x600/D62828/FFFFFF?text=Hairpin+Turns"]
+  },
+  {
+    "place": "san-francisco",
+    "name": "North Beach",
+    "description": "Known as San Francisco's 'Little Italy,' North Beach has maintained its Italian-American character while embracing its artistic heritage as the epicenter of the Beat Generation in the 1950s. The neighborhood is filled with historic cafes, authentic restaurants, and unique bookshops.\n\nIronically, North Beach isn't actually near any beach. It got its name because it was on the waterfront in the 1800s before San Francisco's shoreline was extended with landfill, pushing the water's edge several blocks away.",
+    "did_you_know_fact": "North Beach isn't actually near a beach—it's on land that was once the city's shoreline in the 1800s.",
+    "type": "walk",
+    "top_highlights": [
+      "Columbus Avenue's Italian restaurants and cafes",
+      "Coit Tower with 360-degree city views",
+      "Washington Square Park",
+      "City Lights Bookstore, a Beat landmark",
+      "Saints Peter and Paul Church"
+    ],
+    "cost": "$0",
+    "duration": "2 hours",
+    "hours_of_operation": "24 hours (shops/restaurants vary)",
+    "official_website_link": "https://www.sftravel.com/explore/neighborhoods/north-beach",
+    "featured_image": "https://placehold.co/800x600/F77F00/FFFFFF?text=North+Beach",
+    "images": ["https://placehold.co/800x600/F77F00/FFFFFF?text=Coit+Tower"]
+  },
+  {
+    "place": "san-francisco",
+    "name": "Alamo Square and Painted Ladies",
+    "description": "Located at 710-720 Steiner Street, these colorful Victorian houses are San Francisco's iconic 'Painted Ladies.' This row of seven homes, known as Postcard Row, stands in beautiful contrast to the modern downtown skyline behind them, making it one of the city's most photographed scenes.\n\nThese homes are a prime example of Victorian and Edwardian architecture built between 1892 and 1896. Their popularity soared after being featured in the opening credits of the TV show 'Full House.'",
+    "did_you_know_fact": "In summer 2025, one of the famous Painted Ladies opened to the public for the first time ever as a pop-up museum!",
+    "type": "sightseeing",
+    "top_highlights": [
+      "Iconic 'Postcard Row' of seven Victorian houses",
+      "Stunning views of the downtown San Francisco skyline",
+      "Famous from the 'Full House' opening credits",
+      "Beautifully preserved architecture",
+      "Relaxing atmosphere of Alamo Square Park"
+    ],
+    "cost": "$0",
+    "duration": "45 minutes",
+    "hours_of_operation": "Park is open 5:00 AM - 12:00 AM daily",
+    "official_website_link": "https://sfrecpark.org/777/Alamo-Square",
+    "featured_image": "https://placehold.co/800x600/003049/FFFFFF?text=Painted+Ladies",
+    "images": ["https://placehold.co/800x600/003049/FFFFFF?text=Alamo+Square"]
+  },
+  {
+    "place": "san-francisco",
+    "name": "Crissy Field",
+    "description": "Crissy Field offers a stunning mile-long stretch of restored tidal marshland and beach with unobstructed views of the Golden Gate Bridge, Marin Headlands, and San Francisco Bay. It's a popular spot for walking, jogging, cycling, and kitesurfing.\n\nThis beautiful parkland underwent one of the largest urban habitat restoration projects in U.S. history. It was transformed from a bustling Army airfield (1921-1974) and later a paved-over industrial area into the spectacular national parkland it is today.",
+    "did_you_know_fact": "Crissy Field was transformed from a bustling U.S. Army airfield into a restored tidal marshland through a massive habitat restoration project.",
+    "type": "walk",
+    "top_highlights": [
+      "Mile-long restored tidal marshland and beach",
+      "Unobstructed Golden Gate Bridge views",
+      "Premier destination for jogging, cycling, and kitesurfing",
+      "Presidio Tunnel Tops access",
+      "Picnic areas with spectacular backdrops"
+    ],
+    "cost": "$0",
+    "duration": "1.5 hours",
+    "hours_of_operation": "24 hours",
+    "official_website_link": "https://www.presidio.gov/places/crissy-field",
+    "featured_image": "https://placehold.co/800x600/FCBF49/000000?text=Crissy+Field",
+    "images": [
+      "https://placehold.co/800x600/FCBF49/000000?text=Bridge+from+Field"
+    ]
+  },
+  {
+    "place": "san-francisco",
+    "name": "Golden Gate Bridge",
+    "description": "The Golden Gate Bridge stands as one of the world's most recognizable landmarks and engineering marvels, spanning 1.7 miles across the Golden Gate strait. Opened in 1937, its iconic 'International Orange' color was chosen to complement its natural surroundings and enhance its visibility in the fog.\n\nThe bridge was once called 'the bridge that couldn't be built' due to powerful ocean currents, 60 mph winds, frequent fog, and seismic activity. Yet, it was completed in just four years and under budget.",
+    "did_you_know_fact": "The Golden Gate Bridge was once called 'the bridge that couldn't be built' due to harsh conditions, yet it opened in 1937 after just four years of construction.",
+    "type": "walk",
+    "top_highlights": [
+      "1.7-mile suspension span",
+      "Art Deco design and 'International Orange' color",
+      "Walking or biking across the pedestrian sidewalk",
+      "Stunning views of the city and Alcatraz",
+      "Iconic symbol of San Francisco"
+    ],
+    "cost": "$0",
+    "duration": "1.5 hours",
+    "hours_of_operation": "Pedestrian sidewalk open 5:00 AM - 9:00 PM daily",
+    "official_website_link": "https://www.goldengate.org/",
+    "featured_image": "https://placehold.co/800x600/EAE2B7/000000?text=Golden+Gate",
+    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Bridge+View"]
+  },
+  {
+    "place": "san-francisco",
+    "name": "Battery Spencer",
+    "description": "Battery Spencer has gained modern fame as one of the most spectacular and photographed Golden Gate Bridge viewpoints. It offers a dramatically elevated perspective from the Marin Headlands, looking south towards the bridge and the San Francisco skyline.\n\nThis viewpoint is located at a historic military site. Battery Spencer was constructed in 1897 as part of an extensive coastal defense system designed to protect San Francisco Bay from naval attacks, and its concrete structures remain today.",
+    "did_you_know_fact": "Battery Spencer was constructed in 1897 as part of a coastal defense system to protect San Francisco Bay from naval attacks.",
+    "type": "sightseeing",
+    "top_highlights": [
+      "The most spectacular Golden Gate Bridge viewpoint",
+      "Dramatically elevated perspective from Marin Headlands",
+      "Historic military fortifications",
+      "Premium photography destination, especially at sunrise",
+      "Unobstructed views of the city and bay"
+    ],
+    "cost": "$0",
+    "duration": "45 minutes",
+    "hours_of_operation": "Sunrise to Sunset daily",
+    "official_website_link": "https://www.nps.gov/goga/planyourvisit/battery-spencer.htm",
+    "featured_image": "https://placehold.co/800x600/D62828/FFFFFF?text=Battery+Spencer",
+    "images": [
+      "https://placehold.co/800x600/D62828/FFFFFF?text=Bridge+Viewpoint"
+    ]
+  },
+  {
+    "place": "san-francisco",
+    "name": "Golden Gate Park & Japanese Tea Garden",
+    "description": "Golden Gate Park spans 1,017 acres, making it larger than New York's Central Park. This urban oasis features gardens, museums, and attractions, including the serene Japanese Tea Garden, the oldest public Japanese garden in the United States.\n\nThe park was carved from sand dunes in the 1870s by engineer William Hammond Hall and gardener John McLaren, who transformed a windswept wasteland into the verdant urban sanctuary it is today.",
+    "did_you_know_fact": "Golden Gate Park was carved from sand dunes, transforming a windswept wasteland into a lush urban oasis larger than NYC's Central Park.",
+    "type": "urban",
+    "top_highlights": [
+      "Japanese Tea Garden",
+      "Hamon Observation Tower for 360-degree views",
+      "California Academy of Sciences",
+      "de Young Museum",
+      "Dutch Windmills and Queen Wilhelmina Tulip Garden"
+    ],
+    "cost": "$30",
+    "duration": "3 hours",
+    "hours_of_operation": "9:00 AM - 5:45 PM daily (Japanese Tea Garden)",
+    "official_website_link": "https://www.japaneseteagardensf.com/",
+    "featured_image": "https://placehold.co/800x600/F77F00/FFFFFF?text=Golden+Gate+Park",
+    "images": [
+      "https://placehold.co/800x600/F77F00/FFFFFF?text=Japanese+Garden"
+    ]
+  },
+  {
+    "place": "san-francisco",
+    "name": "Twin Peaks",
+    "description": "Twin Peaks offers the most spectacular 360-degree views of San Francisco and the Bay Area. From the 922-foot summit, visitors can enjoy unobstructed vistas spanning from the Golden Gate Bridge and Ocean Beach to the downtown skyscrapers and across the bay to Oakland.\n\nThe two adjacent hills are the second and third highest natural points in San Francisco. They form a crucial stop on the city's famous 49-Mile Scenic Drive and are part of a 64-acre park that preserves a fragile coastal scrub habitat.",
+    "did_you_know_fact": "Twin Peaks consists of two hills rising 922 feet, making them the second and third highest natural points in San Francisco.",
+    "type": "sightseeing",
+    "top_highlights": [
+      "360-degree views of San Francisco and the Bay Area",
+      "Unobstructed vistas from the Golden Gate Bridge to downtown",
+      "A key stop on the 49-Mile Scenic Drive",
+      "A 64-acre natural area preserving coastal scrub habitat",
+      "Excellent spot for sunrise and sunset photography"
+    ],
+    "cost": "$0",
+    "duration": "45 minutes",
+    "hours_of_operation": "5:00 AM - 12:00 AM daily",
+    "official_website_link": "https://sfrecpark.org/773/Twin-Peaks",
+    "featured_image": "https://placehold.co/800x600/003049/FFFFFF?text=Twin+Peaks",
+    "images": ["https://placehold.co/800x600/003049/FFFFFF?text=SF+View"]
+  },
+  {
+    "place": "honolulu",
+    "name": "Waikiki Beach",
+    "description": "Waikiki Beach is arguably the world's most recognizable beach destination. This 2-mile stretch of white sand is famed for its gentle rolling waves, making it an ideal spot for beginner surfers, and its stunning backdrop of the Diamond Head crater.\n\nOnce a retreat for Hawaiian royalty, Waikiki became a popular tourist destination in the early 20th century. The name 'Waikiki' means 'spouting fresh water' in Hawaiian, referring to the springs and streams that once fed wetlands in the area.",
+    "did_you_know_fact": "Waikiki Beach was once exclusively for Hawaiian royalty, where chiefs and their families would surf and swim.",
+    "type": "beach",
+    "top_highlights": [
+      "Perfect surfing conditions with gentle waves",
+      "Stunning Diamond Head backdrop",
+      "Historic Royal Hawaiian Hotel ('The Pink Palace')",
+      "Beautiful sunsets year-round",
+      "Bronze statue of Duke Kahanamoku, 'father of modern surfing'"
+    ],
+    "cost": "$0",
+    "duration": "3 hours",
+    "hours_of_operation": "24 hours",
+    "official_website_link": "https://www.gohawaii.com/islands/oahu/regions/honolulu/Waikiki",
+    "featured_image": "https://placehold.co/800x600/FCBF49/000000?text=Waikiki+Beach",
+    "images": ["https://placehold.co/800x600/FCBF49/000000?text=Diamond+Head"]
+  },
+  {
+    "place": "honolulu",
+    "name": "Kahanamoku Lagoon",
+    "description": "Kahanamoku Lagoon is one of Waikiki's most family-friendly aquatic attractions. Located at the Hilton Hawaiian Village, this man-made saltwater lagoon offers a peaceful and safe alternative to ocean swimming while maintaining an authentic tropical feel.\n\nThe lagoon is named after Duke Kahanamoku, the legendary Hawaiian Olympic swimmer and surfer. It provides a controlled environment with crystal-clear, calm water, perfect for swimming, stand-up paddleboarding, and kayaking without waves or strong currents.",
+    "did_you_know_fact": "Duke Kahanamoku Lagoon is a unique man-made saltwater lagoon that offers a controlled, wave-free swimming experience in the heart of Waikiki.",
+    "type": "beach",
+    "top_highlights": [
+      "Crystal-clear, calm saltwater for swimming",
+      "No waves, currents, or unexpected sea creatures",
+      "Rental equipment for paddleboarding and kayaking",
+      "Surrounded by lush gardens and views of Diamond Head",
+      "Ideal for families with small children"
+    ],
+    "cost": "$0",
+    "duration": "2 hours",
+    "hours_of_operation": "Sunrise to Sunset daily",
+    "official_website_link": "https://www.hiltonhawaiianvillage.com/lagoon",
+    "featured_image": "https://placehold.co/800x600/EAE2B7/000000?text=Kahanamoku+Lagoon",
+    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Lagoon+Fun"]
+  },
+  {
+    "place": "honolulu",
+    "name": "International Market Place",
+    "description": "International Market Place is a premier open-air retail, dining, and entertainment destination in the heart of Waikiki. Spanning three levels, it features a mix of luxury brands, local boutiques, and world-class restaurants centered around a historic banyan tree.\n\nThe current shopping center is a complete 2016 transformation of the original bazaar that operated on the site since the 1950s. The new design honors the heritage of the location, preserving the 160-year-old banyan tree that was a centerpiece of the original market.",
+    "did_you_know_fact": "The modern International Market Place was built around a historic, 160-year-old banyan tree that was a centerpiece of the original 1950s bazaar.",
+    "type": "urban",
+    "top_highlights": [
+      "Over 75 shops and restaurants",
+      "Centered around a historic 160-year-old banyan tree",
+      "Grand Lanai on the third level with top-tier restaurants",
+      "Mix of luxury retailers and local Hawaiian brands",
+      "Free cultural programming and hula shows"
+    ],
+    "cost": "$0",
+    "duration": "2 hours",
+    "hours_of_operation": "10:00 AM to 9:00 PM daily",
+    "official_website_link": "https://shopinternationalmarketplace.com/",
+    "featured_image": "https://placehold.co/800x600/D62828/FFFFFF?text=Intl+Market+Place",
+    "images": ["https://placehold.co/800x600/D62828/FFFFFF?text=Banyan+Tree"]
+  },
+  {
+    "place": "honolulu",
+    "name": "Ho'omaluhia Botanical Gardens",
+    "description": "Located in Kāneʻohe against the dramatic Koʻolau Mountains, Hoʻomaluhia Botanical Garden is a 400-acre rainforest sanctuary. It has gained massive social media popularity for its stunning entrance road lined with palm trees, set against the fluted cliffs of the mountains.\n\nThis lush paradise was built by the U.S. Army Corps of Engineers in 1982, not just as a beautiful garden, but as a flood control project to protect the surrounding area of Kāneʻohe. Its name, Hoʻomaluhia, fittingly translates to 'a peaceful refuge.'",
+    "did_you_know_fact": "Ho'omaluhia Botanical Garden was built by the U.S. Army Corps of Engineers not just for beauty, but as a flood control project.",
+    "type": "walk",
+    "top_highlights": [
+      "400-acre rainforest sanctuary",
+      "Iconic entrance road with mountain views",
+      "Plant collections from major tropical regions worldwide",
+      "32-acre man-made lake",
+      "Stunning backdrop of the Ko'olau Mountains"
+    ],
+    "cost": "$0",
+    "duration": "2.5 hours",
+    "hours_of_operation": "9:00 AM to 4:00 PM daily",
+    "official_website_link": "https://www.honolulu.gov/parks/hbg/ho-omaluhia-botanical-garden.html",
+    "featured_image": "https://placehold.co/800x600/F77F00/FFFFFF?text=Hoomaluhia",
+    "images": ["https://placehold.co/800x600/F77F00/FFFFFF?text=Entrance+Road"]
+  },
+  {
+    "place": "honolulu",
+    "name": "Lanikai Pillbox Trail",
+    "description": "This 0.9-mile roundtrip hike, also known as the Kaiwa Ridge Trail, has become one of Oahu's most popular sunrise destinations. It offers spectacular panoramic views of the turquoise waters of Kailua and Lanikai beaches, and the offshore Mokulua Islands.\n\nThe 'pillboxes' are actually WWII-era military observation posts built in 1943. These concrete bunkers were never armed but served as strategic lookouts over the Pacific.",
+    "did_you_know_fact": "The 'pillboxes' on the trail are actually unarmed WWII observation posts built in 1943 to watch for enemy ships.",
+    "type": "walk",
+    "top_highlights": [
+      "Spectacular panoramic sunrise views",
+      "Views of Kailua and Lanikai beaches",
+      "Mokulua Islands ('the Mokes') backdrop",
+      "Historical WWII observation posts",
+      "A rewarding and relatively short hike"
+    ],
+    "cost": "$0",
+    "duration": "1.5 hours",
+    "hours_of_operation": "Sunrise to Sunset daily",
+    "official_website_link": "https://www.alltrails.com/trail/hawaii/oahu/lanikai-pillbox-trail-kaiwa-ridge-trail",
+    "featured_image": "https://placehold.co/800x600/003049/FFFFFF?text=Lanikai+Pillbox",
+    "images": ["https://placehold.co/800x600/003049/FFFFFF?text=Sunrise+Hike"]
+  },
+  {
+    "place": "honolulu",
+    "name": "Diamond Head State Monument",
+    "description": "Diamond Head, known as Lēʻahi in Hawaiian, is one of Hawaii's most recognizable landmarks. This 760-foot volcanic crater rises majestically above Waikiki Beach, offering breathtaking 360-degree views of Oahu's coastline and Honolulu from its summit.\n\nThe crater formed from a single explosive eruption over 300,000 years ago. It was named Diamond Head in the 19th century by British sailors who mistook the calcite crystals in the rock for diamonds.",
+    "did_you_know_fact": "Diamond Head isn't made of diamonds! It got its name when 19th-century British sailors mistook sparkling calcite crystals for the precious gems.",
+    "type": "walk",
+    "top_highlights": [
+      "Hiking to the 760-foot summit",
+      "360-degree views of Waikiki and the Pacific Ocean",
+      "Historic military lookouts and fortifications",
+      "Walking through a 225-foot unlit tunnel",
+      "Iconic landmark of Hawaii"
+    ],
+    "cost": "$20",
+    "duration": "2 hours",
+    "hours_of_operation": "6:00 AM - 6:00 PM daily",
+    "official_website_link": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/",
+    "featured_image": "https://placehold.co/800x600/FCBF49/000000?text=Diamond+Head",
+    "images": ["https://placehold.co/800x600/FCBF49/000000?text=Summit+View"]
+  },
+  {
+    "place": "honolulu",
+    "name": "MaunaLoa Doors-Off Helicopter Tour",
+    "description": "Doors-off helicopter tours over Hawaii's volcanic landscapes offer an unparalleled adventure. These flights provide a bird's-eye perspective of active volcanoes like Kilauea and towering mountains like Mauna Loa, with views of lava flows, steam vents, and coastlines that are impossible to see from the ground.\n\nThe experience is particularly thrilling for photographers, as the absence of windows allows for completely unobstructed, glare-free shots of the dramatic scenery below. Passengers are secured with multi-point safety harnesses for a safe and breathtaking ride.",
+    "did_you_know_fact": "Doors-off helicopter tours provide a completely unobstructed aerial photography experience, free from the glare and distortion of windows.",
+    "type": "other",
+    "top_highlights": [
+      "Bird's-eye perspective of volcanic landscapes",
+      "Unobstructed views of lava flows and steam vents",
+      "Unique photography opportunities",
+      "Expert commentary from experienced pilots",
+      "Thrilling and immersive sightseeing experience"
+    ],
+    "cost": "$1200",
+    "duration": "1 hour",
+    "hours_of_operation": "8:00 AM - 5:00 PM daily",
+    "official_website_link": "https://www.paradisecopters.com/",
+    "featured_image": "https://placehold.co/800x600/EAE2B7/000000?text=Helicopter+Tour",
+    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Volcano+View"]
+  },
+  {
+    "place": "honolulu",
+    "name": "Kualoa Ranch",
+    "description": "Kualoa Ranch is a 4,000-acre private nature reserve and working cattle ranch on Oahu's windward coast. It offers a unique combination of natural beauty, cultural heritage, and Hollywood history, set against the stunning Koʻolau mountain range.\n\nKnown as 'Hollywood's Hawaii Backlot,' the ranch has served as a filming location for over 200 movies and TV shows, including Jurassic Park, Godzilla, and Lost, making it one of the most filmed locations worldwide.",
+    "did_you_know_fact": "Kualoa Ranch is called 'Hollywood's Hawaii Backlot' because it has been the filming location for over 200 movies and TV shows like Jurassic Park and Lost.",
+    "type": "other",
+    "top_highlights": [
+      "Jurassic Park, LOST, and Godzilla filming sites",
+      "UTV, ATV, and horseback riding tours",
+      "Zipline through the Ka'a'awa Valley",
+      "Lush valleys and dramatic mountain scenery",
+      "Secret Island Beach activities"
+    ],
+    "cost": "$300",
+    "duration": "2.5 hours",
+    "hours_of_operation": "7:30 AM - 6:00 PM daily",
+    "official_website_link": "https://www.kualoa.com/",
+    "featured_image": "https://placehold.co/800x600/D62828/FFFFFF?text=Kualoa+Ranch",
+    "images": [
+      "https://placehold.co/800x600/D62828/FFFFFF?text=Jurassic+Valley"
+    ]
+  },
+  {
+    "place": "honolulu",
+    "name": "Iolani Palace",
+    "description": "Iolani Palace stands as a symbol of Hawaiian sovereignty and the rich cultural heritage of the Hawaiian Kingdom. It was the official residence of Hawaii's last reigning monarchs, King Kalākaua and his sister and successor, Queen Liliʻuokalani.\n\nAs the only official royal palace in the United States, Iolani Palace was one of the world's most technologically advanced buildings when completed in 1882. It had electric lights, indoor plumbing, and a telephone system years before the White House.",
+    "did_you_know_fact": "Iolani Palace is the only official royal palace in the United States and had electricity and telephones before the White House.",
+    "type": "urban",
+    "top_highlights": [
+      "The only official royal palace in the United States",
+      "Meticulously restored throne room and state dining room",
+      "Original royal furnishings and artifacts",
+      "The room where Queen Liliʻuokalani was imprisoned",
+      "American Florentine architectural style"
+    ],
+    "cost": "$80",
+    "duration": "1.5 hours",
+    "hours_of_operation": "9:00 AM - 4:00 PM Tuesday-Saturday",
+    "official_website_link": "https://www.iolanipalace.org/",
+    "featured_image": "https://placehold.co/800x600/F77F00/FFFFFF?text=Iolani+Palace",
+    "images": ["https://placehold.co/800x600/F77F00/FFFFFF?text=Throne+Room"]
+  },
+  {
+    "place": "honolulu",
+    "name": "Manoa Falls",
+    "description": "Located just 15 minutes from downtown Honolulu, the 1.6-mile roundtrip trail to Manoa Falls is one of Oahu's most accessible rainforest waterfall hikes. The trail winds through a lush landscape of bamboo forests, eucalyptus groves, and tropical flora.\n\nThe trail culminates at the base of the spectacular 150-foot Manoa Falls, which cascades down a sheer volcanic cliff. The Manoa Valley, where the falls are located, is one of the wettest spots on the island, contributing to its vibrant, jungle-like environment.",
+    "did_you_know_fact": "The Manoa Valley, home to the falls, was named 'mano' by ancient Hawaiians, meaning 'wide and vast,' and is one of the rainiest spots on Oahu.",
+    "type": "walk",
+    "top_highlights": [
+      "Spectacular 150-foot waterfall",
+      "Lush rainforest hike through bamboo forests",
+      "Famous banyan tree arch formation",
+      "Well-maintained and accessible trail",
+      "Easy nature escape just minutes from Honolulu"
+    ],
+    "cost": "$7",
+    "duration": "1.5 hours",
+    "hours_of_operation": "8:00 AM - 4:00 PM daily",
+    "official_website_link": "https://dlnr.hawaii.gov/dsp/hiking/oahu/manoa-falls-trail/",
+    "featured_image": "https://placehold.co/800x600/003049/FFFFFF?text=Manoa+Falls",
+    "images": [
+      "https://placehold.co/800x600/003049/FFFFFF?text=Rainforest+Hike"
+    ]
+  },
+  {
+    "place": "los-angeles",
+    "name": "Beverly Hills and Rodeo Drive",
+    "description": "Beverly Hills' Rodeo Drive is internationally recognized as one of the world's most prestigious luxury shopping destinations. This glamorous, three-block stretch is home to over 100 flagship stores for the world's leading fashion houses and jewelers.\n\nThe area has surprisingly humble beginnings. Before it was lined with designer boutiques, the land was a lima bean ranch. Its transformation began in the early 20th century, and it became a global symbol of luxury after the 1980s.",
+    "did_you_know_fact": "Before it was a global luxury icon, the land that is now Rodeo Drive was a lima bean ranch.",
+    "type": "walk",
+    "top_highlights": [
+      "Over 100 luxury boutiques and flagship stores",
+      "Window shopping at Chanel, Hermès, and Cartier",
+      "The House of Bijan, the 'most expensive store in the world'",
+      "European-style Two Rodeo Drive with cobblestone walkways",
+      "Rodeo Drive Walk of Style honoring fashion legends"
+    ],
+    "cost": "$0",
+    "duration": "2 hours",
+    "hours_of_operation": "10:00 AM - 7:00 PM daily (shops)",
+    "official_website_link": "https://rodeodrive-bh.com/",
+    "featured_image": "https://placehold.co/800x600/FCBF49/000000?text=Rodeo+Drive",
+    "images": ["https://placehold.co/800x600/FCBF49/000000?text=Beverly+Hills"]
+  },
+  {
+    "place": "los-angeles",
+    "name": "Hollywood Walk of Fame",
+    "description": "The Hollywood Walk of Fame is a world-famous landmark where over 2,700 celebrities have been honored with coral-pink terrazzo stars embedded in the sidewalks along Hollywood Boulevard and Vine Street. It's a tribute to achievements in film, television, music, radio, and live performance.\n\nBeing honored with a star isn't just about talent; it comes with a price tag. As of 2025, the sponsoring entity must pay $85,000 for the star's creation, installation, and maintenance.",
+    "did_you_know_fact": "The Hollywood Walk of Fame isn't just earned through talent—each star costs the celebrity's sponsor $85,000.",
+    "type": "walk",
+    "top_highlights": [
+      "Over 2,700 celebrity stars embedded in the sidewalk",
+      "Spans 1.3 miles of Hollywood Boulevard",
+      "Finding the stars of your favorite entertainers",
+      "A vibrant atmosphere with street performers",
+      "Located near other major attractions like the TCL Chinese Theatre"
+    ],
+    "cost": "$0",
+    "duration": "1.5 hours",
+    "hours_of_operation": "24 hours",
+    "official_website_link": "https://walkoffame.com/",
+    "featured_image": "https://placehold.co/800x600/EAE2B7/000000?text=Walk+of+Fame",
+    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Hollywood+Star"]
+  },
+  {
+    "place": "los-angeles",
+    "name": "TCL Chinese Theatre",
+    "description": "The TCL Chinese Theatre is an iconic movie palace that has been home to countless movie premieres since its opening in 1927. Its most famous feature is the Forecourt of the Stars, which features the handprints, footprints, and signatures of Hollywood legends preserved in concrete.\n\nThe tradition of the concrete imprints began by accident. During construction, silent film star Norma Talmadge accidentally stepped in wet cement, and theater owner Sid Grauman decided to make it a permanent feature.",
+    "did_you_know_fact": "The tradition of celebrity handprints began by accident when silent film star Norma Talmadge stepped in wet cement during the theater's construction.",
+    "type": "urban",
+    "top_highlights": [
+      "Celebrity handprints and footprints in the Forecourt of the Stars",
+      "Exotic Chinese-inspired architecture",
+      "Working cinema showing current films, including in IMAX",
+      "Historic movie palace that has hosted numerous premieres",
+      "Located directly on the Hollywood Walk of Fame"
+    ],
+    "cost": "$27",
+    "duration": "1 hour",
+    "hours_of_operation": "10:00 AM - 11:00 PM daily (varies)",
+    "official_website_link": "https://www.tclchinesetheatres.com/",
+    "featured_image": "https://placehold.co/800x600/D62828/FFFFFF?text=Chinese+Theatre",
+    "images": ["https://placehold.co/800x600/D62828/FFFFFF?text=Handprints"]
+  },
+  {
+    "place": "los-angeles",
+    "name": "Griffith Observatory",
+    "description": "Griffith Observatory serves as 'Southern California's gateway to the cosmos.' Perched on the south slope of Mount Hollywood, it offers spectacular views of the Los Angeles basin, downtown L.A., and the Hollywood Sign, along with a wealth of space and science exhibits.\n\nDuring WWII, the planetarium was used to train pilots in celestial navigation, and in the 1960s, it helped train Apollo astronauts for their lunar missions, solidifying its place in the history of space exploration.",
+    "did_you_know_fact": "During WWII, the observatory's planetarium was used to train pilots in celestial navigation, and later helped train Apollo astronauts for lunar missions.",
+    "type": "urban",
+    "top_highlights": [
+      "Spectacular views of Los Angeles and the Hollywood Sign",
+      "Samuel Oschin Planetarium shows",
+      "Free public telescope viewing at night",
+      "Exhibits on space and science, including a Tesla Coil",
+      "Iconic Art Deco architecture"
+    ],
+    "cost": "$0",
+    "duration": "2.5 hours",
+    "hours_of_operation": "12:00 PM - 10:00 PM weekdays, 10:00 AM - 10:00 PM weekends",
+    "official_website_link": "https://griffithobservatory.org/",
+    "featured_image": "https://placehold.co/800x600/F77F00/FFFFFF?text=Griffith+Observatory",
+    "images": ["https://placehold.co/800x600/F77F00/FFFFFF?text=City+View"]
+  },
+  {
+    "place": "los-angeles",
+    "name": "Hollywood Sign",
+    "description": "Perched at 1,578 feet on Mount Lee, the Hollywood Sign is Los Angeles's most recognizable landmark and a global symbol of the entertainment industry. The 45-foot-tall letters are visible from across the L.A. basin.\n\nThe sign began as a real estate advertisement in 1923. It originally read 'HOLLYWOODLAND' to promote a housing development and was only intended to last for 18 months. The 'LAND' was dropped in 1949, and the sign became the icon it is today.",
+    "did_you_know_fact": "The Hollywood Sign was originally a real estate ad that read 'HOLLYWOODLAND' and was only meant to last for 18 months.",
+    "type": "sightseeing",
+    "top_highlights": [
+      "Iconic 45-foot-tall letters",
+      "Multiple viewing locations, including Lake Hollywood Park",
+      "Hiking trails for behind-the-sign access",
+      "Global symbol of the entertainment industry",
+      "Fantastic photo opportunities"
+    ],
+    "cost": "$0",
+    "duration": "45 minutes",
+    "hours_of_operation": "24 hours (viewing), Sunrise to Sunset (hiking)",
+    "official_website_link": "https://www.hollywoodsign.org/",
+    "featured_image": "https://placehold.co/800x600/003049/FFFFFF?text=Hollywood+Sign",
+    "images": ["https://placehold.co/800x600/003049/FFFFFF?text=Sign+View"]
+  },
+  {
+    "place": "los-angeles",
+    "name": "Santa Monica Pier",
+    "description": "The Santa Monica Pier is one of Southern California's most iconic landmarks, jutting into the Pacific Ocean at the intersection of Ocean and Colorado Avenues. The pier is a hub of activity, featuring an amusement park, an aquarium, restaurants, and excellent fishing spots.\n\nIt is home to Pacific Park, which features the world's first and only solar-powered Ferris wheel. The Pacific Wheel's 174,000 LED lights create a dazzling display against the night sky and can be seen from miles away.",
+    "did_you_know_fact": "Santa Monica Pier is home to Pacific Park, which features the world's first solar-powered Ferris wheel.",
+    "type": "beach",
+    "top_highlights": [
+      "Pacific Park amusement park with 12 rides",
+      "The solar-powered Pacific Wheel Ferris wheel",
+      "Historic carousel from 1939",
+      "Heal the Bay Aquarium",
+      "Stunning sunset views over the Pacific"
+    ],
+    "cost": "$0",
+    "duration": "3 hours",
+    "hours_of_operation": "24 hours (pier), park hours vary",
+    "official_website_link": "https://santamonicapier.org/",
+    "featured_image": "https://placehold.co/800x600/FCBF49/000000?text=Santa+Monica+Pier",
+    "images": ["https://placehold.co/800x600/FCBF49/000000?text=Ferris+Wheel"]
+  },
+  {
+    "place": "los-angeles",
+    "name": "Venice Beach Boardwalk",
+    "description": "Venice Beach is renowned for its eclectic, bohemian atmosphere that perfectly embodies the free-spirited California lifestyle. The famous Ocean Front Walk, or boardwalk, is a spectacle of street performers, artists, fortune tellers, and vendors.\n\nThe area was originally conceived as 'Venice of America' in 1905 by tobacco magnate Abbot Kinney, who built an elaborate network of canals, imported gondolas, and erected European-style architecture to create a cultural mecca. While many canals were later paved over, a few still remain in the residential areas.",
+    "did_you_know_fact": "Venice Beach was founded as 'Venice of America' in 1905, complete with canals and imported gondolas to replicate its Italian namesake.",
+    "type": "beach",
+    "top_highlights": [
+      "Ocean Front Walk with street performers and artists",
+      "Iconic Muscle Beach outdoor gym",
+      "Venice Skatepark right on the sand",
+      "Historic Venice Canals",
+      "Vibrant and eclectic atmosphere"
+    ],
+    "cost": "$0",
+    "duration": "2.5 hours",
+    "hours_of_operation": "24 hours (boardwalk), shops vary",
+    "official_website_link": "https://www.laparks.org/venice",
+    "featured_image": "https://placehold.co/800x600/EAE2B7/000000?text=Venice+Beach",
+    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Boardwalk"]
+  },
+  {
+    "place": "los-angeles",
+    "name": "Universal Studios Hollywood",
+    "description": "Universal Studios Hollywood combines the magic of moviemaking with the thrills of a theme park. It offers a unique look behind the scenes of film production on its world-famous Studio Tour, alongside immersive themed lands and attractions based on blockbuster movies and TV shows.\n\nIt's not just a theme park—it's one of the largest working movie studios in the world. While you're enjoying rides and shows, actual movie and TV production is often happening on the historic backlot just out of sight.",
+    "did_you_know_fact": "Universal Studios Hollywood isn't just a theme park – it's one of the world's largest working movie studios!",
+    "type": "urban",
+    "top_highlights": [
+      "The world-famous Studio Tour hosted by Jimmy Fallon",
+      "The Wizarding World of Harry Potter",
+      "Super Nintendo World",
+      "Jurassic World – The Ride",
+      "Immersive experiences based on blockbuster films"
+    ],
+    "cost": "$260",
+    "duration": "Full Day (8+ hours)",
+    "hours_of_operation": "9:00 AM - 9:00 PM daily (varies)",
+    "official_website_link": "https://www.universalstudioshollywood.com/",
+    "featured_image": "https://placehold.co/800x600/D62828/FFFFFF?text=Universal+Studios",
+    "images": [
+      "https://placehold.co/800x600/D62828/FFFFFF?text=Harry+Potter+World"
+    ]
+  }
+]

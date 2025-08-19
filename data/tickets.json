@@ -1,0 +1,37 @@
+[
+  {
+    "id": "alcatraz-tour-ticket",
+    "ticket_type": "tour",
+    "reference_item_id": "alcatraz-tour",
+    "cost": "$45",
+    "is_purchased": true
+  },
+  {
+    "id": "diamond-head-ticket",
+    "ticket_type": "attraction",
+    "reference_item_id": "diamond-head",
+    "cost": "$18",
+    "is_purchased": true
+  },
+  {
+    "id": "universal-studios-ticket",
+    "ticket_type": "attraction",
+    "reference_item_id": "universal-studios",
+    "cost": "$218",
+    "is_purchased": false
+  },
+  {
+    "id": "helicopter-tour-ticket",
+    "ticket_type": "tour",
+    "reference_item_id": "helicopter-tour",
+    "cost": "$800",
+    "is_purchased": false
+  },
+  {
+    "id": "kualoa-ranch-ticket",
+    "ticket_type": "tour",
+    "reference_item_id": "kualoa-ranch-tour",
+    "cost": "$500",
+    "is_purchased": false
+  }
+]

@@ -1,0 +1,596 @@
+[
+  {
+    "id": "event-001",
+    "day_index": 1,
+    "timestamp_start_local_time": "2025-08-26T07:00:00+03:00",
+    "referenced_item_type": "flight",
+    "referenced_item_id": "klm-otp-sfo",
+    "title": "Departure from Bucharest",
+    "description": "KLM flight to San Francisco via Amsterdam - beginning of American adventure"
+  },
+  {
+    "id": "event-002",
+    "day_index": 1,
+    "timestamp_start_local_time": "2025-08-26T11:45:00-07:00",
+    "referenced_item_type": "flight",
+    "referenced_item_id": "klm-otp-sfo",
+    "title": "Arrival in San Francisco",
+    "description": "Landing at San Francisco International Airport"
+  },
+  {
+    "id": "event-003",
+    "day_index": 1,
+    "timestamp_start_local_time": "2025-08-26T13:00:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "sfo-to-airbnb",
+    "title": "Transfer to Accommodation",
+    "description": "Uber to 59 Pierce Street in Duboce Park neighborhood"
+  },
+  {
+    "id": "event-004",
+    "day_index": 1,
+    "timestamp_start_local_time": "2025-08-26T15:00:00-07:00",
+    "referenced_item_type": "accommodation",
+    "referenced_item_id": "sf-accommodation",
+    "title": "Check into San Francisco Airbnb",
+    "description": "Spacious 1 Bed Suite in Painted Lady-Duboce Park area"
+  },
+  {
+    "id": "event-005",
+    "day_index": 1,
+    "timestamp_start_local_time": "2025-08-26T15:00:00-07:00",
+    "referenced_item_type": "store",
+    "referenced_item_id": "golden-leaf-sf",
+    "title": "Cannabis Delivery Order",
+    "description": "Premium cannabis delivery service in San Francisco Bay Area"
+  },
+  {
+    "id": "event-006",
+    "day_index": 1,
+    "timestamp_start_local_time": "2025-08-26T16:30:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "alamo-square",
+    "title": "Neighborhood Exploration",
+    "description": "Walk through Duboce Park, famous Painted Ladies, Hayes Street, and City Hall"
+  },
+  {
+    "id": "event-007",
+    "day_index": 2,
+    "timestamp_start_local_time": "2025-08-27T07:40:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "sf-to-pier33",
+    "title": "Transfer to Pier 33",
+    "description": "Early departure for Alcatraz Island tour"
+  },
+  {
+    "id": "event-008",
+    "day_index": 2,
+    "timestamp_start_local_time": "2025-08-27T08:40:00-07:00",
+    "referenced_item_type": "tour",
+    "referenced_item_id": "alcatraz-tour",
+    "title": "Alcatraz Day Tour",
+    "description": "Self-guided tour of infamous federal penitentiary with award-winning audio tour"
+  },
+  {
+    "id": "event-009",
+    "day_index": 2,
+    "timestamp_start_local_time": "2025-08-27T12:30:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "fishermans-wharf",
+    "title": "Fisherman's Wharf Lunch",
+    "description": "Classic clam chowder in sourdough bread bowl and sea lions at Pier 39"
+  },
+  {
+    "id": "event-010",
+    "day_index": 2,
+    "timestamp_start_local_time": "2025-08-27T14:30:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "lombard-street",
+    "title": "Lombard Street Visit",
+    "description": "The famous crooked street with eight sharp hairpin turns"
+  },
+  {
+    "id": "event-011",
+    "day_index": 2,
+    "timestamp_start_local_time": "2025-08-27T18:00:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "north-beach",
+    "title": "North Beach Dinner",
+    "description": "Authentic Italian dining in San Francisco's Little Italy"
+  },
+  {
+    "id": "event-012",
+    "day_index": 3,
+    "timestamp_start_local_time": "2025-08-28T09:30:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "sf-to-crissy-field",
+    "title": "Transfer to Crissy Field",
+    "description": "Journey to waterfront park for Golden Gate Bridge views"
+  },
+  {
+    "id": "event-013",
+    "day_index": 3,
+    "timestamp_start_local_time": "2025-08-28T10:00:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "crissy-field",
+    "title": "Crissy Field Visit",
+    "description": "Beautiful unobstructed views of Golden Gate Bridge with San Francisco Bay"
+  },
+  {
+    "id": "event-014",
+    "day_index": 3,
+    "timestamp_start_local_time": "2025-08-28T11:00:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "golden-gate-bridge",
+    "title": "Golden Gate Bridge Walk",
+    "description": "Scenic walk along shoreline to Fort Point, then across the iconic bridge"
+  },
+  {
+    "id": "event-015",
+    "day_index": 3,
+    "timestamp_start_local_time": "2025-08-28T15:00:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "sausalito",
+    "title": "Sausalito Visit (Optional)",
+    "description": "Mediterranean-style village with spectacular Golden Gate Bridge views"
+  },
+  {
+    "id": "event-016",
+    "day_index": 4,
+    "timestamp_start_local_time": "2025-08-29T10:00:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "golden-gate-park",
+    "title": "Japanese Tea Garden Visit",
+    "description": "First public Japanese garden in America with authentic pagodas and koi ponds"
+  },
+  {
+    "id": "event-017",
+    "day_index": 4,
+    "timestamp_start_local_time": "2025-08-29T16:30:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "twin-peaks",
+    "title": "Twin Peaks Panoramic Views",
+    "description": "Best 360-degree views of San Francisco from 922 feet above sea level"
+  },
+  {
+    "id": "event-018",
+    "day_index": 5,
+    "timestamp_start_local_time": "2025-08-30T06:00:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "sf-to-sfo",
+    "title": "Check out & Transfer to Airport",
+    "description": "Final departure from San Francisco to catch flight to Hawaii"
+  },
+  {
+    "id": "event-019",
+    "day_index": 5,
+    "timestamp_start_local_time": "2025-08-30T09:33:00-07:00",
+    "referenced_item_type": "flight",
+    "referenced_item_id": "hawaiian-sfo-hnl",
+    "title": "Flight to Honolulu",
+    "description": "Hawaiian Airlines to Daniel K. Inouye International Airport"
+  },
+  {
+    "id": "event-020",
+    "day_index": 5,
+    "timestamp_start_local_time": "2025-08-30T12:10:00-10:00",
+    "referenced_item_type": "flight",
+    "referenced_item_id": "hawaiian-sfo-hnl",
+    "title": "Arrival in Honolulu",
+    "description": "Landing in paradise - first time in Hawaii"
+  },
+  {
+    "id": "event-021",
+    "day_index": 5,
+    "timestamp_start_local_time": "2025-08-30T14:30:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "airport-to-waikiki",
+    "title": "Transfer to Waikiki",
+    "description": "Journey to studio in heart of Waikiki"
+  },
+  {
+    "id": "event-022",
+    "day_index": 5,
+    "timestamp_start_local_time": "2025-08-30T15:00:00-10:00",
+    "referenced_item_type": "accommodation",
+    "referenced_item_id": "hnl-accommodation",
+    "title": "Check into Waikiki Studio",
+    "description": "Charming Studio Heart of Waikiki - home for 6 days"
+  },
+  {
+    "id": "event-023",
+    "day_index": 5,
+    "timestamp_start_local_time": "2025-08-30T16:00:00-10:00",
+    "referenced_item_type": "store",
+    "referenced_item_id": "island-uplift-hnl",
+    "title": "Island Uplift Shop Visit",
+    "description": "Local Hawaiian cannabis dispensary with authentic island-grown products"
+  },
+  {
+    "id": "event-024",
+    "day_index": 5,
+    "timestamp_start_local_time": "2025-08-30T16:30:00-10:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "waikiki-beach",
+    "title": "First Waikiki Beach Experience",
+    "description": "First Hawaiian sunset and beach exploration in world-famous Waikiki"
+  },
+  {
+    "id": "event-025",
+    "day_index": 6,
+    "timestamp_start_local_time": "2025-08-31T08:30:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "waikiki-to-botanical",
+    "title": "Transfer to Botanical Gardens",
+    "description": "Journey to lush botanical paradise in Kaneohe"
+  },
+  {
+    "id": "event-026",
+    "day_index": 6,
+    "timestamp_start_local_time": "2025-08-31T09:15:00-10:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "hoomaluhia-gardens",
+    "title": "Ho'omaluhia Botanical Gardens",
+    "description": "400-acre rainforest sanctuary with Instagram-famous palm tree entrance"
+  },
+  {
+    "id": "event-027",
+    "day_index": 6,
+    "timestamp_start_local_time": "2025-08-31T11:30:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "botanical-to-lanikai",
+    "title": "Transfer to Lanikai Area",
+    "description": "Travel to exclusive Lanikai neighborhood for famous pillbox hike"
+  },
+  {
+    "id": "event-028",
+    "day_index": 6,
+    "timestamp_start_local_time": "2025-08-31T12:15:00-10:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "lanikai-pillbox",
+    "title": "Lanikai Pillbox Trail Hike",
+    "description": "Moderate hike to WWII observation posts with stunning Mokulua Islands views"
+  },
+  {
+    "id": "event-029",
+    "day_index": 6,
+    "timestamp_start_local_time": "2025-08-31T16:00:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "lanikai-to-waikiki",
+    "title": "Return to Waikiki",
+    "description": "Journey back after day in nature at world's most beautiful beaches"
+  },
+  {
+    "id": "event-030",
+    "day_index": 7,
+    "timestamp_start_local_time": "2025-09-01T05:30:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "waikiki-to-diamond-head",
+    "title": "Early Transfer to Diamond Head",
+    "description": "Early morning departure for sunrise hike"
+  },
+  {
+    "id": "event-031",
+    "day_index": 7,
+    "timestamp_start_local_time": "2025-09-01T06:00:00-10:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "diamond-head",
+    "title": "Diamond Head Sunrise Hike",
+    "description": "Climb 760-foot volcanic crater for spectacular Pacific sunrise"
+  },
+  {
+    "id": "event-032",
+    "day_index": 7,
+    "timestamp_start_local_time": "2025-09-01T09:15:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "waikiki-to-helicopter-tour",
+    "title": "Transfer to Helicopter Tour",
+    "description": "Journey to airport for most exciting activity of the trip"
+  },
+  {
+    "id": "event-033",
+    "day_index": 7,
+    "timestamp_start_local_time": "2025-09-01T10:30:00-10:00",
+    "referenced_item_type": "tour",
+    "referenced_item_id": "helicopter-tour",
+    "title": "MaunaLoa Doors-Off Helicopter Tour",
+    "description": "Incredible aerial adventure showcasing Oahu's stunning landscapes from unique perspective"
+  },
+  {
+    "id": "event-034",
+    "day_index": 7,
+    "timestamp_start_local_time": "2025-09-01T12:00:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "helicopter-tour-to-waikiki",
+    "title": "Return to Waikiki",
+    "description": "Back to Waikiki to process amazing aerial adventure"
+  },
+  {
+    "id": "event-035",
+    "day_index": 8,
+    "timestamp_start_local_time": "2025-09-02T07:45:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "waikiki-to-kualoa",
+    "title": "Transfer to Kualoa Ranch",
+    "description": "Early departure to Hollywood's Hawaii Backlot for full day adventure"
+  },
+  {
+    "id": "event-036",
+    "day_index": 8,
+    "timestamp_start_local_time": "2025-09-02T09:40:00-10:00",
+    "referenced_item_type": "tour",
+    "referenced_item_id": "kualoa-ranch-tour",
+    "title": "Kualoa Ranch Adventure Package",
+    "description": "Full-day adventure featuring movie sites tours, UTV driving, and catamaran cruise"
+  },
+  {
+    "id": "event-037",
+    "day_index": 8,
+    "timestamp_start_local_time": "2025-09-02T17:30:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "kualoa-to-waikiki",
+    "title": "Return from Kualoa Ranch",
+    "description": "Journey back after action-packed Hollywood adventure day"
+  },
+  {
+    "id": "event-038",
+    "day_index": 9,
+    "timestamp_start_local_time": "2025-09-03T09:30:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "waikiki-to-downtown",
+    "title": "Transfer to Downtown Honolulu",
+    "description": "Journey to Hawaii's historic and political center"
+  },
+  {
+    "id": "event-039",
+    "day_index": 9,
+    "timestamp_start_local_time": "2025-09-03T10:30:00-10:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "iolani-palace",
+    "title": "Iolani Palace Tour",
+    "description": "Only royal palace in United States with advanced 1882 technology"
+  },
+  {
+    "id": "event-040",
+    "day_index": 9,
+    "timestamp_start_local_time": "2025-09-03T13:00:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "downtown-to-waikiki",
+    "title": "Return to Waikiki",
+    "description": "Back to Waikiki for relaxing beach afternoon"
+  },
+  {
+    "id": "event-041",
+    "day_index": 10,
+    "timestamp_start_local_time": "2025-09-04T10:00:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "waikiki-to-manoa-falls",
+    "title": "Transfer to Manoa Falls",
+    "description": "Journey to lush rainforest valley for waterfall hike"
+  },
+  {
+    "id": "event-042",
+    "day_index": 10,
+    "timestamp_start_local_time": "2025-09-04T10:30:00-10:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "manoa-falls",
+    "title": "Manoa Falls Hike",
+    "description": "Final nature adventure through bamboo forests to 150-foot waterfall"
+  },
+  {
+    "id": "event-043",
+    "day_index": 10,
+    "timestamp_start_local_time": "2025-09-04T13:00:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "manoa-falls-to-waikiki",
+    "title": "Return from Manoa Falls",
+    "description": "Journey back after refreshing rainforest adventure"
+  },
+  {
+    "id": "event-044",
+    "day_index": 11,
+    "timestamp_start_local_time": "2025-09-05T07:45:00-10:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "waikiki-to-airport",
+    "title": "Check out & Transfer to Airport",
+    "description": "Farewell to Hawaii and journey to Los Angeles"
+  },
+  {
+    "id": "event-045",
+    "day_index": 11,
+    "timestamp_start_local_time": "2025-09-05T11:10:00-10:00",
+    "referenced_item_type": "flight",
+    "referenced_item_id": "united-hnl-lax",
+    "title": "Flight to Los Angeles",
+    "description": "United Airlines to Los Angeles International Airport"
+  },
+  {
+    "id": "event-046",
+    "day_index": 11,
+    "timestamp_start_local_time": "2025-09-05T19:38:00-07:00",
+    "referenced_item_type": "flight",
+    "referenced_item_id": "united-hnl-lax",
+    "title": "Arrival in Los Angeles",
+    "description": "Welcome to City of Angels - evening arrival for final leg"
+  },
+  {
+    "id": "event-047",
+    "day_index": 11,
+    "timestamp_start_local_time": "2025-09-05T20:15:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "lax-to-midcity",
+    "title": "Transfer to LA Accommodation",
+    "description": "Journey to Mid-City Airbnb for final accommodation"
+  },
+  {
+    "id": "event-048",
+    "day_index": 11,
+    "timestamp_start_local_time": "2025-09-05T20:45:00-07:00",
+    "referenced_item_type": "store",
+    "referenced_item_id": "traditional-mid-city-la",
+    "title": "Traditional Mid-City Cannabis",
+    "description": "Established Los Angeles cannabis dispensary in Mid-City area"
+  },
+  {
+    "id": "event-049",
+    "day_index": 11,
+    "timestamp_start_local_time": "2025-09-05T21:30:00-07:00",
+    "referenced_item_type": "accommodation",
+    "referenced_item_id": "la-accommodation",
+    "title": "Check into LA Airbnb",
+    "description": "LA's Loveliest In & Outdoor Spot - home for final 4 days"
+  },
+  {
+    "id": "event-050",
+    "day_index": 12,
+    "timestamp_start_local_time": "2025-09-06T08:30:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "midcity-to-rodeo",
+    "title": "Transfer to Beverly Hills",
+    "description": "Journey to world's most prestigious shopping destination"
+  },
+  {
+    "id": "event-051",
+    "day_index": 12,
+    "timestamp_start_local_time": "2025-09-06T09:30:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "beverly-hills",
+    "title": "Beverly Hills & Rodeo Drive",
+    "description": "Luxury shopping and celebrity star hunting on world-famous street"
+  },
+  {
+    "id": "event-052",
+    "day_index": 12,
+    "timestamp_start_local_time": "2025-09-06T11:00:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "rodeo-to-hollywood",
+    "title": "Transfer to Hollywood",
+    "description": "Journey to entertainment capital of the world"
+  },
+  {
+    "id": "event-053",
+    "day_index": 12,
+    "timestamp_start_local_time": "2025-09-06T12:00:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "hollywood-walk",
+    "title": "Hollywood Walk of Fame",
+    "description": "Walk among 2,700+ celebrity stars embedded in sidewalk"
+  },
+  {
+    "id": "event-054",
+    "day_index": 12,
+    "timestamp_start_local_time": "2025-09-06T12:30:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "tcl-chinese-theatre",
+    "title": "TCL Chinese Theatre",
+    "description": "Iconic movie palace with celebrity handprints and footprints"
+  },
+  {
+    "id": "event-055",
+    "day_index": 12,
+    "timestamp_start_local_time": "2025-09-06T16:00:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "hollywood-to-griffith",
+    "title": "Transfer to Griffith Observatory",
+    "description": "Journey to iconic Art Deco observatory for sunset views"
+  },
+  {
+    "id": "event-056",
+    "day_index": 12,
+    "timestamp_start_local_time": "2025-09-06T17:00:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "griffith-observatory",
+    "title": "Griffith Observatory Visit",
+    "description": "Stunning panoramic views of LA and Hollywood Sign at sunset"
+  },
+  {
+    "id": "event-057",
+    "day_index": 12,
+    "timestamp_start_local_time": "2025-09-06T20:00:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "griffith-to-midcity",
+    "title": "Return to Accommodation",
+    "description": "End of first full day exploring LA glamour"
+  },
+  {
+    "id": "event-058",
+    "day_index": 13,
+    "timestamp_start_local_time": "2025-09-07T09:30:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "midcity-to-santa-monica",
+    "title": "Transfer to Santa Monica",
+    "description": "Journey to iconic beachside destination"
+  },
+  {
+    "id": "event-059",
+    "day_index": 13,
+    "timestamp_start_local_time": "2025-09-07T11:15:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "santa-monica-pier",
+    "title": "Santa Monica Pier",
+    "description": "Iconic pier with Pacific Park rides and solar-powered Ferris wheel"
+  },
+  {
+    "id": "event-060",
+    "day_index": 13,
+    "timestamp_start_local_time": "2025-09-07T14:00:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "venice-beach",
+    "title": "Venice Beach Boardwalk",
+    "description": "Eclectic bohemian atmosphere with street performers and Muscle Beach"
+  },
+  {
+    "id": "event-061",
+    "day_index": 13,
+    "timestamp_start_local_time": "2025-09-07T16:00:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "venice-beach-to-midcity",
+    "title": "Return to Accommodation",
+    "description": "End of classic California beach day"
+  },
+  {
+    "id": "event-062",
+    "day_index": 14,
+    "timestamp_start_local_time": "2025-09-08T08:45:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "midcity-to-universal",
+    "title": "Transfer to Universal Studios",
+    "description": "Journey to world's largest working movie studio and theme park"
+  },
+  {
+    "id": "event-063",
+    "day_index": 14,
+    "timestamp_start_local_time": "2025-09-08T10:00:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "universal-studios",
+    "title": "Universal Studios Hollywood",
+    "description": "Full day immersion in working movie studio with Harry Potter and Nintendo worlds"
+  },
+  {
+    "id": "event-064",
+    "day_index": 14,
+    "timestamp_start_local_time": "2025-09-08T18:00:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "universal-to-midcity",
+    "title": "Return to Accommodation",
+    "description": "End of magical day at Universal Studios"
+  },
+  {
+    "id": "event-065",
+    "day_index": 15,
+    "timestamp_start_local_time": "2025-09-09T12:30:00-07:00",
+    "referenced_item_type": "transfer",
+    "referenced_item_id": "midcity-to-lax",
+    "title": "Check out & Transfer to Airport",
+    "description": "Final departure from USA adventure"
+  },
+  {
+    "id": "event-066",
+    "day_index": 15,
+    "timestamp_start_local_time": "2025-09-09T17:20:00-07:00",
+    "referenced_item_type": "flight",
+    "referenced_item_id": "klm-lax-otp",
+    "title": "Flight Home to Bucharest",
+    "description": "Journey home via Paris with amazing memories of American adventure"
+  }
+]

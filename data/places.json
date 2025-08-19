@@ -1,0 +1,38 @@
+[
+  {
+    "id": "san-francisco",
+    "name": "San Francisco",
+    "days": [1, 2, 3, 4],
+    "featured_image": "/images/san-francisco-destination-card.png",
+    "images": [
+      "https://placehold.co/800x600/FF6B35/FFFFFF?text=Golden+Gate+Bridge",
+      "https://placehold.co/800x600/4A90E2/FFFFFF?text=Alcatraz+Island",
+      "https://placehold.co/800x600/50C878/FFFFFF?text=Painted+Ladies"
+    ],
+    "description": "Welcome to the City by the Bay, a vibrant tapestry of iconic landmarks, rolling hills, and crisp sea air. Your adventure begins with the awe-inspiring Golden Gate Bridge, its majestic international orange towers often peeking through the morning fog. Feel the bustling energy of Fisherman's Wharf, where you can savor fresh seafood and listen to the barks of the resident sea lions. From there, take a chillingly fascinating ferry ride to the infamous island of Alcatraz and walk the cell blocks that once held America's most notorious criminals. For a picture-perfect moment, find your way to Alamo Square to gaze upon the \"Painted Ladies,\" a row of beautiful Victorian houses set against the modern downtown skyline. San Francisco is a city of stunning contrasts, where historic cable cars climb steep streets and every corner reveals a new, breathtaking view."
+  },
+  {
+    "id": "honolulu",
+    "name": "Honolulu",
+    "days": [5, 6, 7, 8, 9, 10],
+    "featured_image": "/images/honolulu-destination-card.png",
+    "images": [
+      "https://placehold.co/800x600/FFD700/FFFFFF?text=Waikiki+Beach",
+      "https://placehold.co/800x600/32CD32/FFFFFF?text=Diamond+Head",
+      "https://placehold.co/800x600/FF4500/FFFFFF?text=Helicopter+Tour"
+    ],
+    "description": "Leave the mainland behind and immerse yourself in the tropical paradise and warm aloha spirit of Honolulu. Your home base is the world-famous Waikiki, where gentle waves lap against golden sands and the iconic silhouette of Diamond Head looms in the distance. But the island's true magic lies in the adventure beyond the beach. For an unforgettable thrill, take to the skies on a doors-off helicopter tour, soaring over jagged green cliffs, hidden waterfalls, and the shimmering turquoise waters of the Pacific. Explore the legendary Kualoa Ranch, the stunning backdrop for countless Hollywood blockbusters, and hike through the lush rainforest to the cascading Manoa Falls. For a day of pure bliss, escape to the serene shores of Lanikai Beach, often called the most beautiful in the world, and feel all your worries melt away."
+  },
+  {
+    "id": "los-angeles",
+    "name": "Los Angeles",
+    "days": [11, 12, 13, 14, 15],
+    "featured_image": "/images/los-angeles-destination-card.png",
+    "images": [
+      "https://placehold.co/800x600/8A2BE2/FFFFFF?text=Hollywood+Sign",
+      "https://placehold.co/800x600/FF69B4/FFFFFF?text=Beverly+Hills",
+      "https://placehold.co/800x600/1E90FF/FFFFFF?text=Santa+Monica"
+    ],
+    "description": "Get ready for the grand finale in the entertainment capital of the world, Los Angeles. This is where dreams are made, and you'll be at the heart of the action. Stroll down the Hollywood Walk of Fame, finding the stars of your favorite celebrities before gazing up at the iconic Hollywood Sign nestled in the hills. For a panoramic view of the entire city sprawl, make your way to the Griffith Observatory, a perfect spot for sunset. Then, dive headfirst into the magic of filmmaking at Universal Studios, going behind the scenes and experiencing thrilling rides that bring your favorite movies to life. Finally, embrace the quintessential Southern California lifestyle at the coast. Enjoy the classic fun of the Santa Monica Pier, with its vibrant Ferris wheel, and then cruise down to the eclectic and bohemian Venice Beach boardwalk to soak in the unique street culture and watch the skaters work their magic by the ocean."
+  }
+]

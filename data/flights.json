@@ -1,0 +1,78 @@
+[
+  {
+    "id": "klm-otp-sfo",
+    "origin": "Bucharest (OTP)",
+    "destination": "San Francisco (SFO)",
+    "stopovers": [
+      {
+        "airport": "Amsterdam (AMS)",
+        "city": "Amsterdam",
+        "duration": "1h 55m"
+      }
+    ],
+    "timestamp_depart_local_time": "2025-08-26T07:00:00+03:00",
+    "timestamp_arrive_local_time": "2025-08-26T11:45:00-07:00",
+    "duration": "13h 45m",
+    "aircraft_type": "Boeing 737-900 / Boeing 787-10",
+    "seat_included": false,
+    "meal_included": true,
+    "luggage_policy": "1 checked bag included, carry-on included",
+    "airline": "KLM",
+    "cost": "$1800",
+    "contact_details": "+1 800 618 0104"
+  },
+  {
+    "id": "hawaiian-sfo-hnl",
+    "origin": "San Francisco (SFO)",
+    "destination": "Honolulu (HNL)",
+    "stopovers": [],
+    "timestamp_depart_local_time": "2025-08-30T09:33:00-07:00",
+    "timestamp_arrive_local_time": "2025-08-30T12:10:00-10:00",
+    "duration": "5h 37m",
+    "aircraft_type": "Airbus A330",
+    "seat_included": false,
+    "meal_included": false,
+    "luggage_policy": "Carry-on included, checked bag extra $40",
+    "airline": "Hawaiian Airlines",
+    "cost": "$700",
+    "contact_details": "+1 800 367 5320"
+  },
+  {
+    "id": "united-hnl-lax",
+    "origin": "Honolulu (HNL)",
+    "destination": "Los Angeles (LAX)",
+    "stopovers": [],
+    "timestamp_depart_local_time": "2025-09-05T11:10:00-10:00",
+    "timestamp_arrive_local_time": "2025-09-05T19:38:00-07:00",
+    "duration": "5h 28m",
+    "aircraft_type": "Boeing 777-200",
+    "seat_included": false,
+    "meal_included": false,
+    "luggage_policy": "Carry-on included, checked bag extra $40",
+    "airline": "United Airlines",
+    "cost": "$550",
+    "contact_details": "+1 800 864 8331"
+  },
+  {
+    "id": "klm-lax-otp",
+    "origin": "Los Angeles (LAX)",
+    "destination": "Bucharest (OTP)",
+    "stopovers": [
+      {
+        "airport": "Paris (CDG)",
+        "city": "Paris",
+        "duration": "1h 30m"
+      }
+    ],
+    "timestamp_depart_local_time": "2025-09-09T17:20:00-07:00",
+    "timestamp_arrive_local_time": "2025-09-10T20:10:00+03:00",
+    "duration": "16h 50m",
+    "aircraft_type": "Airbus A350-900 / Boeing 737-700",
+    "seat_included": true,
+    "meal_included": true,
+    "luggage_policy": "1 checked bag included, carry-on included",
+    "airline": "KLM/DELTA/TAROM",
+    "cost": "$1800",
+    "contact_details": "+1 800 618 0104"
+  }
+]
