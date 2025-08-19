@@ -56,7 +56,7 @@ interface JourneySnapshotProps {
 export default function JourneySnapshot({ stats }: JourneySnapshotProps) {
   return (
     <div className="w-full max-w-4xl mx-auto">
-      <div className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-inner p-6 px-0">
+      <div className="bg-white/5 backdrop-blur-md rounded-2xl border border-white/20 shadow-inner p-6 px-0">
         <div className="flex justify-around items-center divide-x divide-white/20">
           <StatItem
             icon={<MapPin size={24} />}

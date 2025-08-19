@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import { usePathname } from 'next/navigation';
-import { Inter } from 'next/font/google';
-import './globals.css';
-import Header from './components/Header';
-import BottomNav from './components/BottomNav';
+import { usePathname } from "next/navigation";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Header from "./components/Header";
+import BottomNav from "./components/BottomNav";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -14,17 +14,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const pathname = usePathname();
-  const isHomePage = pathname === '/';
+  const isHomePage = pathname === "/";
 
   return (
     <html lang="en">
       <body className={`${inter.className} bg-background text-text`}>
         {!isHomePage && <Header title="USA 2025" />}
-        <main
-          className={
-            !isHomePage ? 'pt-16 pb-16 max-w-md mx-auto' : ''
-          }
-        >
+        <main className={true ? "pt-16 pb-24 max-w-md mx-auto" : ""}>
           {children}
         </main>
         <BottomNav />
