@@ -14,14 +14,14 @@ const BottomNav = () => {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-background border-t border-gray-200 shadow-md">
+    <nav className="fixed bottom-0 left-0 right-0 bg-gradient-accent text-white shadow-lg z-[100] pb-6 pt-2">
       <div className="flex justify-around max-w-md mx-auto">
         {navItems.map(({ href, label, icon: Icon }) => (
           <Link
             href={href}
             key={label}
             className={`flex flex-col items-center justify-center w-full pt-2 pb-1 text-sm ${
-              pathname === href ? 'text-accent' : 'text-gray-500'
+              pathname === href ? 'text-white font-bold' : 'text-white/70'
             }`}
           >
             <Icon size={24} />

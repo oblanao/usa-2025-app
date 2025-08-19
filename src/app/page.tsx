@@ -8,6 +8,7 @@ import {
   Camera,
   Users,
 } from 'react-feather';
+import Header from './components/Header';
 
 export default async function Home() {
   const places = await getPlaces();
@@ -25,7 +26,8 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
-      <header className="relative h-[60vh] min-h-[500px] flex items-end justify-center text-center text-white overflow-hidden">
+      <Header title={trip.name} />
+      <div className="relative h-[60vh] min-h-[500px] flex items-end justify-center text-center text-white overflow-hidden">
         <Image
           src={trip.featured_image}
           alt="Golden Gate Bridge"
@@ -40,7 +42,7 @@ export default async function Home() {
           </h1>
           <p className="text-2xl font-light drop-shadow-lg">{trip.tagline}</p>
         </div>
-      </header>
+      </div>
 
       <main className="p-8 md:p-12">
         <section className="max-w-6xl mx-auto -mt-32 relative z-30">

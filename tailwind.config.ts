@@ -12,6 +12,10 @@ const config: Config = {
         'background': '#F5F5F5',
         'text': '#333333',
         'accent': '#4A90E2',
+      },
+      backgroundImage: {
+        'gradient-accent': 'linear-gradient(to right, #4A90E2, #0062D1)',
+        'gradient-accent-light': 'linear-gradient(to right, rgba(74, 144, 226, 0.99), rgba(0, 98, 209, 0.99))',
       }
     },
   },
