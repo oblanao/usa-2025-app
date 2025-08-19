@@ -1,9 +1,8 @@
 import { getPlaces, getEvents, getTrips, getTravelers } from "./lib/data";
 import DestinationCard from "./components/DestinationCard";
-import { Place, Trip, Traveler } from "./lib/types";
+import { Place } from "./lib/types";
 import Image from "next/image";
 import JourneySnapshot from "./components/JourneySnapshot";
-import { Calendar, MapPin, Camera, Users } from "react-feather";
 import Header from "./components/Header";
 import TravelerAvatars from "./components/TravelerAvatars";
 

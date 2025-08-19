@@ -1,16 +1,15 @@
-'use client';
+"use client";
 
-import { useState, useEffect, ReactNode } from 'react';
-import { Calendar, MapPin, Camera, Users } from 'react-feather';
+import { useState, useEffect, ReactNode } from "react";
+import { Calendar, MapPin, Users } from "react-feather";
 
 interface StatItemProps {
   icon: ReactNode;
   value: number;
   label: string;
-  primary?: boolean;
 }
 
-const StatItem = ({ icon, value, label, primary = false }: StatItemProps) => {
+const StatItem = ({ icon, value, label }: StatItemProps) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -32,11 +31,7 @@ const StatItem = ({ icon, value, label, primary = false }: StatItemProps) => {
   return (
     <div className="flex flex-col items-center text-center text-white flex-1">
       <div className="mb-2 text-white/80">{icon}</div>
-      <p
-        className='text-4xl font-bold drop-shadow-md mb-1'
-      >
-        {count}
-      </p>
+      <p className="text-4xl font-bold drop-shadow-md mb-1">{count}</p>
       <p className="text-xs font-light uppercase tracking-widest text-white/70">
         {label}
       </p>
@@ -62,19 +57,13 @@ export default function JourneySnapshot({ stats }: JourneySnapshotProps) {
             icon={<MapPin size={24} />}
             value={stats.destinations}
             label="Places"
-            primary
           />
           <StatItem
             icon={<Users size={24} />}
             value={stats.travelers}
             label="Travelers"
           />
-            <StatItem
-            icon={<Calendar size={24} />}
-            value={1}
-            label="Adventure"
-            primary
-          />
+          <StatItem icon={<Calendar size={24} />} value={1} label="Adventure" />
         </div>
       </div>
     </div>

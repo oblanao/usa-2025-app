@@ -1,24 +1,5 @@
-import {
-  Activity,
-  Briefcase,
-  Clock,
-  DollarSign,
-  Globe,
-  Heart,
-  HelpCircle,
-  MapPin,
-  Star,
-  Tag,
-  Tool,
-} from 'react-feather';
-import {
-  Accommodation,
-  Attraction,
-  Flight,
-  Store,
-  Tour,
-  Transfer,
-} from '../lib/types';
+import { Clock, DollarSign, Globe, HelpCircle, Star, Tag } from "react-feather";
+import { Attraction } from "../lib/types";
 
 type DetailItemProps = {
   icon: React.ElementType;
@@ -50,16 +31,18 @@ const DetailItem = ({ icon: Icon, label, value }: DetailItemProps) => {
   );
 };
 
+type ReferencedItem = Attraction;
+
 const ReferencedItemDetails = ({
   item,
   type,
 }: {
-  item: any;
+  item: ReferencedItem;
   type: string;
 }) => {
   const renderDetails = () => {
     switch (type) {
-      case 'attraction':
+      case "attraction":
         const attraction = item as Attraction;
         return (
           <div className="space-y-4">
@@ -68,11 +51,7 @@ const ReferencedItemDetails = ({
               label="Did You Know?"
               value={attraction.did_you_know_fact}
             />
-            <DetailItem
-              icon={Tag}
-              label="Type"
-              value={attraction.type}
-            />
+            <DetailItem icon={Tag} label="Type" value={attraction.type} />
             <DetailItem
               icon={Star}
               label="Top Highlights"

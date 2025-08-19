@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { Day } from '@/app/lib/types';
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { Calendar, ChevronRight } from 'react-feather';
+import { Day } from "@/app/lib/types";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { ChevronRight } from "react-feather";
 
 type DayCardProps = {
   day: Day;
@@ -11,11 +11,6 @@ type DayCardProps = {
 };
 
 const DayCard = ({ day, placeId }: DayCardProps) => {
-  const formattedDate = new Date(day.date).toLocaleDateString('en-US', {
-    month: 'long',
-    day: 'numeric',
-  });
-
   return (
     <motion.div
       initial={{ opacity: 0, x: -20 }}
@@ -32,7 +27,7 @@ const DayCard = ({ day, placeId }: DayCardProps) => {
             {new Date(day.date).getDate()}
           </span>
           <span className="text-gray-500 text-sm uppercase">
-            {new Date(day.date).toLocaleString('en-US', { month: 'short' })}
+            {new Date(day.date).toLocaleString("en-US", { month: "short" })}
           </span>
         </div>
         <div className="flex-1">
