@@ -1,0 +1,82 @@
+'use client';
+
+import { useState, useEffect, ReactNode } from 'react';
+import { Calendar, MapPin, Camera, Users } from 'react-feather';
+
+interface StatItemProps {
+  icon: ReactNode;
+  value: number;
+  label: string;
+  primary?: boolean;
+}
+
+const StatItem = ({ icon, value, label, primary = false }: StatItemProps) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    let startTimestamp: number | null = null;
+    const duration = 500; // ms
+
+    const step = (timestamp: number) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+      setCount(Math.floor(progress * value));
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      }
+    };
+
+    window.requestAnimationFrame(step);
+  }, [value]);
+
+  return (
+    <div className="flex flex-col items-center text-center text-white flex-1">
+      <div className="mb-2 text-white/80">{icon}</div>
+      <p
+        className='text-4xl font-bold drop-shadow-md mb-1'
+      >
+        {count}
+      </p>
+      <p className="text-xs font-light uppercase tracking-widest text-white/70">
+        {label}
+      </p>
+    </div>
+  );
+};
+
+interface JourneySnapshotProps {
+  stats: {
+    days: number;
+    destinations: number;
+    events: number;
+    travelers: number;
+  };
+}
+
+export default function JourneySnapshot({ stats }: JourneySnapshotProps) {
+  return (
+    <div className="w-full max-w-4xl mx-auto">
+      <div className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-inner p-6 px-0">
+        <div className="flex justify-around items-center divide-x divide-white/20">
+          <StatItem
+            icon={<MapPin size={24} />}
+            value={stats.destinations}
+            label="Places"
+            primary
+          />
+          <StatItem
+            icon={<Users size={24} />}
+            value={stats.travelers}
+            label="Travelers"
+          />
+            <StatItem
+            icon={<Calendar size={24} />}
+            value={1}
+            label="Adventure"
+            primary
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
