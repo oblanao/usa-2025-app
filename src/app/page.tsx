@@ -5,6 +5,7 @@ import Image from "next/image";
 import JourneySnapshot from "./components/JourneySnapshot";
 import { Calendar, MapPin, Camera, Users } from "react-feather";
 import Header from "./components/Header";
+import TravelerAvatars from "./components/TravelerAvatars";
 
 export default async function Home() {
   const places = await getPlaces();
@@ -52,28 +53,7 @@ export default async function Home() {
       </div>
 
       <main className="p-8 md:p-12 -mt-16">
-        <section className="max-w-6xl mx-auto relative z-30">
-          <div className="flex justify-center items-center space-x-4">
-            {travelers.map((traveler) => (
-              <div
-                key={traveler.id}
-                className="flex flex-col items-center space-y-2"
-              >
-                <Image
-                  src={`/images/${traveler.id}-avatar.jpg`}
-                  alt={traveler.name}
-                  width={80}
-                  height={80}
-                  className="rounded-full border-4 border-white shadow-lg"
-                />
-                <span className="font-bold text-lg">
-                  {traveler.display_name}
-                </span>
-              </div>
-            ))}
-          </div>
-        </section>
-
+        <TravelerAvatars travelers={travelers} />
         <section className="max-w-7xl mx-auto mt-16">
           <h2 className="text-4xl font-bold text-center mb-10">
             Our Destinations
