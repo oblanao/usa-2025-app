@@ -4,7 +4,7 @@ import { Place } from '@/app/lib/types';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { MapPin, Calendar, ArrowRight } from 'react-feather';
+import { ArrowRight } from 'react-feather';
 
 type DestinationCardProps = {
   place: Place;
@@ -16,42 +16,44 @@ const DestinationCard = ({ place, eventCount }: DestinationCardProps) => {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3 }}
-      className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
+      transition={{ duration: 0.5, ease: 'easeOut' }}
+      className="relative rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 group aspect-[4/5] max-w-md"
     >
-      <div className="relative h-52 w-full">
-        <Image
-          src={place.featured_image}
-          alt={place.name}
-          layout="fill"
-          objectFit="cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-        <div className="absolute bottom-4 left-4">
-          <h2 className="text-3xl font-extrabold text-white drop-shadow-lg">
+      <Image
+        src={place.featured_image}
+        alt={place.name}
+        layout="fill"
+        objectFit="cover"
+        className="z-0 transition-transform duration-300 group-hover:scale-110"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent z-10" />
+      <div className="relative z-20 p-6 flex flex-col justify-end h-full text-white">
+        <div>
+          <h2 className="text-4xl font-bold text-white drop-shadow-lg">
             {place.name}
           </h2>
+          <p className="text-white/90 text-base mt-2 leading-relaxed line-clamp-2">
+            {place.description}
+          </p>
         </div>
-      </div>
-      <div className="p-5">
-        <p className="text-gray-600 text-base line-clamp-3">
-          {place.description}
-        </p>
-        <div className="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-          <div className="flex space-x-4">
-            <div className="flex items-center space-x-1.5 text-gray-500">
-              <Calendar size={18} />
-              <span className="font-semibold">{`${place.days.length} Days`}</span>
+        <div className="flex justify-between items-end mt-6 pt-4 border-t border-white/20">
+          <div className="flex space-x-8">
+            <div className="text-center">
+              <p className="text-3xl font-bold">{place.days.length}</p>
+              <p className="text-xs text-white/80 uppercase tracking-widest">
+                Days
+              </p>
             </div>
-            <div className="flex items-center space-x-1.5 text-gray-500">
-              <MapPin size={18} />
-              <span className="font-semibold">{`${eventCount} Events`}</span>
+            <div className="text-center">
+              <p className="text-3xl font-bold">{eventCount}</p>
+              <p className="text-xs text-white/80 uppercase tracking-widest">
+                Events
+              </p>
             </div>
           </div>
-          <Link href={`/destinations/${place.id}`}>
-            <span className="flex items-center text-accent font-bold hover:underline">
-              View Destination
-              <ArrowRight size={18} className="ml-1" />
+          <Link href={`/destinations/${place.id}`} passHref>
+            <span className="flex items-center justify-center bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-bold rounded-full h-12 w-12 transition-colors cursor-pointer">
+              <ArrowRight size={20} />
             </span>
           </Link>
         </div>
