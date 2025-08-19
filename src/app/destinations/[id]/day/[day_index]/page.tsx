@@ -6,13 +6,15 @@ import { notFound } from "next/navigation";
 import { Calendar } from "react-feather";
 
 type DayPageProps = {
-  params: {
+  params: Promise<{
     id: string;
     day_index: string;
-  };
+  }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
-export default async function DayPage({ params }: DayPageProps) {
+export default async function DayPage(props: DayPageProps) {
+  const params = await props.params;
   const day = await getDayByIndex(parseInt(params.day_index, 10));
   const allEvents = await getEvents();
 

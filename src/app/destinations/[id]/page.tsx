@@ -1,21 +1,22 @@
-import { getPlaceById, getDays, getEvents } from '@/app/lib/data';
-import DayCard from '@/app/components/DayCard';
-import Header from '@/app/components/Header';
-import { Day } from '@/app/lib/types';
-import { notFound } from 'next/navigation';
-import Image from 'next/image';
-import { Calendar, MapPin } from 'react-feather';
+import { getPlaceById, getDays, getEvents } from "@/app/lib/data";
+import DayCard from "@/app/components/DayCard";
+import Header from "@/app/components/Header";
+import { Day } from "@/app/lib/types";
+import { notFound } from "next/navigation";
+import Image from "next/image";
+import { Calendar, MapPin } from "react-feather";
 
 type DestinationPageProps = {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 };
 
 export default async function DestinationPage({
   params,
 }: DestinationPageProps) {
-  const place = await getPlaceById(params.id);
+  const resolvedParams = await params;
+  const place = await getPlaceById(resolvedParams.id);
   const allDays = await getDays();
   const allEvents = await getEvents();
 
@@ -23,11 +24,11 @@ export default async function DestinationPage({
     notFound();
   }
 
-  const destinationDays = allDays.filter(day =>
-    place.days.includes(day.day_index),
+  const destinationDays = allDays.filter((day) =>
+    place.days.includes(day.day_index)
   );
-  const destinationEvents = allEvents.filter(event =>
-    place.days.includes(event.day_index),
+  const destinationEvents = allEvents.filter((event) =>
+    place.days.includes(event.day_index)
   );
 
   return (

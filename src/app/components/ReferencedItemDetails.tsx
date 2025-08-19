@@ -1,5 +1,12 @@
 import { Clock, DollarSign, Globe, HelpCircle, Star, Tag } from "react-feather";
-import { Attraction } from "../lib/types";
+import {
+  Attraction,
+  Flight,
+  Accommodation,
+  Tour,
+  Transfer,
+  Store,
+} from "../lib/types";
 
 type DetailItemProps = {
   icon: React.ElementType;
@@ -31,7 +38,13 @@ const DetailItem = ({ icon: Icon, label, value }: DetailItemProps) => {
   );
 };
 
-type ReferencedItem = Attraction;
+type ReferencedItem =
+  | Attraction
+  | Flight
+  | Accommodation
+  | Tour
+  | Transfer
+  | Store;
 
 const ReferencedItemDetails = ({
   item,

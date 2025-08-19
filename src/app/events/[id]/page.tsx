@@ -1,17 +1,18 @@
-import { getEventById, getReferencedItem } from '@/app/lib/data';
-import Header from '@/app/components/Header';
-import { notFound } from 'next/navigation';
-import Image from 'next/image';
-import ReferencedItemDetails from '@/app/components/ReferencedItemDetails';
+import { getEventById, getReferencedItem } from "@/app/lib/data";
+import Header from "@/app/components/Header";
+import { notFound } from "next/navigation";
+import Image from "next/image";
+import ReferencedItemDetails from "@/app/components/ReferencedItemDetails";
 
 type EventPageProps = {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 };
 
 export default async function EventPage({ params }: EventPageProps) {
-  const event = await getEventById(params.id);
+  const resolvedParams = await params;
+  const event = await getEventById(resolvedParams.id);
 
   if (!event) {
     notFound();
@@ -19,7 +20,7 @@ export default async function EventPage({ params }: EventPageProps) {
 
   const referencedItem = await getReferencedItem(
     event.referenced_item_type,
-    event.referenced_item_id,
+    event.referenced_item_id
   );
 
   return (
@@ -27,7 +28,7 @@ export default async function EventPage({ params }: EventPageProps) {
       <Header title={event.title} showBackButton />
       <div className="p-4">
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-          {referencedItem && 'featured_image' in referencedItem && (
+          {referencedItem && "featured_image" in referencedItem && (
             <div className="relative h-56 w-full">
               <Image
                 src={referencedItem.featured_image}
