@@ -1,9 +1,6 @@
 General
 
-- Update 5 Sep day description, it is not an evening departure
-- Update 2 Sep day Title to be Kualoa Ranch. Update the description as well, to avoid “kualoa ranch” repetition with the title. maybe make that hollywood reference.
-- Fix glitch when scrolling to the bottom of the page, as the page slightly scrolls up after reaching the end when scrolling down on mobile phone (maybe ios chrome dependent, not sure).
-- increase bottom padding for layout, for the main content by 48px.
+- Fix glitch when scrolling to the bottom of the page, as the page slightly scrolls up after reaching the end when scrolling down on mobile phone (i think its ios chrome dependent, not sure).
 
 Footer and pages structure
 

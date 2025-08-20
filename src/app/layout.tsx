@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-background text-text`}>
         {!isHomePage && <Header title="USA 2025" />}
-        <main className={true ? "pt-16 pb-24 max-w-md mx-auto" : ""}>
+        <main className={true ? "pt-16 pb-36 max-w-md mx-auto" : ""}>
           {children}
         </main>
         <BottomNav />

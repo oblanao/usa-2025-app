@@ -57,7 +57,7 @@ export default async function Home() {
         </div>
       </div>
 
-      <main className="p-8 pt-12 md:p-12">
+      <main className="p-8 pt-12 md:p-12 bg-gray-100">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-gray-800 mb-2">Let's go!</h2>
         </div>
