@@ -20,8 +20,6 @@ export default function TravelerAvatars({ travelers }: TravelerAvatarsProps) {
 
   return (
     <div className="flex flex-col items-center z-[100]">
-      <div className="h-16" />
-      <div className="h-8" />
       <div className="flex -space-x-4">
         {travelers.map((traveler, index) => (
           <div
@@ -46,7 +44,7 @@ export default function TravelerAvatars({ travelers }: TravelerAvatarsProps) {
         ))}
       </div>
       <p
-        className={`mt-4 text-sm font-light uppercase tracking-widest text-white/80 transition-opacity duration-1000 ease-out ${
+        className={`mt-4 text-sm font-light uppercase tracking-widest text-gray-600 transition-opacity duration-1000 ease-out ${
           isAnimated ? "opacity-100" : "opacity-0"
         }`}
         style={{ transitionDelay: "500ms" }}

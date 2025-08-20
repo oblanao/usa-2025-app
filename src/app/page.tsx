@@ -5,6 +5,7 @@ import Image from "next/image";
 import JourneySnapshot from "./components/JourneySnapshot";
 import Header from "./components/Header";
 import TravelerAvatars from "./components/TravelerAvatars";
+import { calculateNightsForPlace } from "./lib/utils";
 
 export default async function Home() {
   const places = await getPlaces();
@@ -29,7 +30,7 @@ export default async function Home() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
       <Header title={trip.name} />
-      <div className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden">
+      <div className="relative h-[calc(100vh-100px)] flex items-center justify-center text-center text-white overflow-hidden">
         <Image
           src={trip.featured_image}
           alt="Golden Gate Bridge"
@@ -37,21 +38,31 @@ export default async function Home() {
           objectFit="cover"
           className="z-0"
         />
-        <div className="absolute inset-0 bg-black/60 z-10" />
         <div className="relative z-20 p-4 w-full">
-          <div className="h-16" />
-          <div className="h-16" />
-          <h1 className="text-6xl font-extrabold drop-shadow-xl mb-2">
+          <h1
+            className="text-6xl font-extrabold drop-shadow-xl mb-2"
+            style={{ textShadow: "10px 2px 4px rgba(0, 0, 0, 0.6)" }}
+          >
             {trip.name}
           </h1>
-          <p className="text-2xl font-light drop-shadow-lg">{trip.tagline}</p>
+          <p
+            className="text-2xl font-light drop-shadow-lg"
+            style={{ textShadow: "5px 2px 4px rgba(0, 0, 0, 0.6)" }}
+          >
+            {trip.tagline}
+          </p>
           <div className="mt-8">
             <JourneySnapshot stats={stats} />
           </div>
         </div>
       </div>
 
-      <main className="p-8 md:p-12 -mt-16">
+      <main className="p-8 pt-12 md:p-12">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold text-gray-800 mb-2">
+            Meet the Travelers
+          </h2>
+        </div>
         <TravelerAvatars travelers={travelers} />
         <section className="max-w-7xl mx-auto mt-16">
           <h2 className="text-4xl font-bold text-center mb-10">
@@ -62,11 +73,13 @@ export default async function Home() {
               const placeEvents = events.filter((event) =>
                 place.days.includes(event.day_index)
               );
+              const nights = calculateNightsForPlace(place.id);
               return (
                 <DestinationCard
                   key={place.id}
                   place={place}
                   eventCount={placeEvents.length}
+                  nightCount={nights}
                 />
               );
             })}

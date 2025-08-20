@@ -1,22 +1,27 @@
-'use client';
+"use client";
 
-import { Place } from '@/app/lib/types';
-import { motion } from 'framer-motion';
-import Image from 'next/image';
-import Link from 'next/link';
-import { ArrowRight } from 'react-feather';
+import { Place } from "@/app/lib/types";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "react-feather";
 
 type DestinationCardProps = {
   place: Place;
   eventCount: number;
+  nightCount: number;
 };
 
-const DestinationCard = ({ place, eventCount }: DestinationCardProps) => {
+const DestinationCard = ({
+  place,
+  eventCount,
+  nightCount,
+}: DestinationCardProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, ease: 'easeOut' }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
       className="relative rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 group aspect-[4/5] max-w-md"
     >
       <Image
@@ -39,9 +44,9 @@ const DestinationCard = ({ place, eventCount }: DestinationCardProps) => {
         <div className="flex justify-between items-end mt-6 pt-4 border-t border-white/20">
           <div className="flex space-x-8">
             <div className="text-center">
-              <p className="text-3xl font-bold">{place.days.length}</p>
+              <p className="text-3xl font-bold">{nightCount}</p>
               <p className="text-xs text-white/80 uppercase tracking-widest">
-                Days
+                Nights
               </p>
             </div>
             <div className="text-center">

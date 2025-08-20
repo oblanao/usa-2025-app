@@ -30,9 +30,11 @@ const StatItem = ({ icon, value, label }: StatItemProps) => {
 
   return (
     <div className="flex flex-col items-center text-center text-white flex-1">
-      <div className="mb-2 text-white/80">{icon}</div>
-      <p className="text-4xl font-bold drop-shadow-md mb-1">{count}</p>
-      <p className="text-xs font-light uppercase tracking-widest text-white/70">
+      <div className="mb-2 text-white">{icon}</div>
+      <p className="text-4xl font-bold drop-shadow-md mb-1 text-white">
+        {count}
+      </p>
+      <p className="text-xs font-light uppercase tracking-widest text-white">
         {label}
       </p>
     </div>
@@ -51,7 +53,12 @@ interface JourneySnapshotProps {
 export default function JourneySnapshot({ stats }: JourneySnapshotProps) {
   return (
     <div className="w-full max-w-4xl mx-auto">
-      <div className="bg-white/5 backdrop-blur-md rounded-2xl border border-white/20 shadow-inner p-6 px-0">
+      <div
+        className="backdrop-blur-xl rounded-2xl border border-white/10 shadow-inner p-6 px-0"
+        style={{
+          backgroundColor: "rgba(20, 30, 55, 0.6)",
+        }}
+      >
         <div className="flex justify-around items-center divide-x divide-white/20">
           <StatItem
             icon={<MapPin size={24} />}
