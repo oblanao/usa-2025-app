@@ -7,11 +7,6 @@ General
 
 Landing Page
 
-- the content on the hero section sits too low, must be verically centered inside its container. if any spacers inserted, make sure to remove them.
-- Improve travelers section by adding an appropriate heading above the avatars and the dates below, i.e 26 Aug - 9 Sep 2025
-- Destination cards count the number of nights at each place, instead of days
-- Hero section is too tall, reduce by around 100px
-
 Individual Destination Page
 
 - Redesign the welcome description section to be more visually compelling and compact, transforming the plain text block into an elegant, magazine-style introduction. Same for day page description section
