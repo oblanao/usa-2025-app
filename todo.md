@@ -7,7 +7,6 @@ General
 
 Individual Destination Page
 
-- Update icon uses for events (a map pin) to something more appropriate for attractions and activities, maybe something fun.
 - Add a map pin icon prefix to the destination title
   Individual Day Page
 - add link to next or previous days, at the bottom of the page
