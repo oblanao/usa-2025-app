@@ -34,40 +34,43 @@ export default async function DestinationPage({
   return (
     <>
       <Header title={place.name} showBackButton />
-      <div className="relative h-64 w-full">
+      <div className="relative h-80 w-full">
         <Image
           src={place.featured_image}
           alt={place.name}
-          layout="fill"
-          objectFit="cover"
+          fill
+          className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-        <div className="absolute bottom-6 left-4 right-4">
-          <h1 className="text-4xl font-extrabold text-white drop-shadow-lg">
-            {place.name}
-          </h1>
-        </div>
-      </div>
-      <div className="p-4 sm:p-6 bg-gray-50">
-        <div className="flex items-center space-x-6 text-gray-600">
-          <div className="flex items-center space-x-2">
-            <Calendar size={20} className="text-accent" />
-            <span className="font-semibold">{`${destinationDays.length} Days`}</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <MapPin size={20} className="text-accent" />
-            <span className="font-semibold">{`${destinationEvents.length} Events`}</span>
-          </div>
-        </div>
-        <p className="text-lg text-gray-700 mt-4">{place.description}</p>
+        <div className="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-black/80 to-transparent" />
       </div>
 
-      <div className="p-4">
-        <h2 className="text-2xl font-bold text-text mb-4">Daily Itinerary</h2>
-        <div className="space-y-6">
-          {destinationDays.map((day: Day) => (
-            <DayCard key={day.day_index} day={day} placeId={place.id} />
-          ))}
+      <div className="relative bg-gray-100 -mt-16 rounded-t-3xl py-6 px-4">
+        <div className="absolute -top-8 left-1/2 -translate-x-1/2 w-[calc(100%-3rem)] max-w-sm">
+          <div className="bg-white rounded-xl shadow-lg p-4 flex justify-around items-center">
+            <div className="flex items-center space-x-2">
+              <Calendar className="text-gray-500" />
+              <span className="text-gray-700 font-semibold">{`${destinationDays.length} Days`}</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <MapPin className="text-gray-500" />
+              <span className="text-gray-700 font-semibold">{`${destinationEvents.length} Events`}</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8">
+          <h1 className="text-3xl font-bold">{place.name}</h1>
+          <div className="my-4">
+            <p className="text-lg text-gray-600 leading-relaxed">
+              {place.description}
+            </p>
+          </div>
+          <h2 className="text-2xl font-bold text-text mb-4">Daily Itinerary</h2>
+          <div className="space-y-6">
+            {destinationDays.map((day: Day) => (
+              <DayCard key={day.day_index} day={day} placeId={place.id} />
+            ))}
+          </div>
         </div>
       </div>
     </>

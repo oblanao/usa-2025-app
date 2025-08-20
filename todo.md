@@ -5,8 +5,6 @@ General
 - Fix glitch when scrolling to the bottom of the page, as the page slightly scrolls up after reaching the end when scrolling down on mobile phone (maybe ios chrome dependent, not sure).
 - increase bottom padding for layout, for the main content by 48px.
 
-Landing Page
-
 Individual Destination Page
 
 - Redesign the welcome description section to be more visually compelling and compact, transforming the plain text block into an elegant, magazine-style introduction. Same for day page description section

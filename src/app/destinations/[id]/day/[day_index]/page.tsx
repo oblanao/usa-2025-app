@@ -39,12 +39,16 @@ export default async function DayPage(props: DayPageProps) {
         title={`Day ${day.day_index}: ${day.brief_title}`}
         showBackButton
       />
-      <div className="p-4 sm:p-6 bg-gray-50 border-b">
+      <div className="p-4 sm:p-6 border-b">
         <div className="flex items-center space-x-2 text-gray-600">
           <Calendar size={20} className="text-accent" />
           <span className="font-semibold">{formattedDate}</span>
         </div>
-        <p className="text-lg text-gray-700 mt-2">{day.description}</p>
+        <div className="mt-4 border-l-4 border-accent pl-4">
+          <p className="text-lg italic text-gray-700 leading-relaxed">
+            {day.description}
+          </p>
+        </div>
       </div>
       <div className="p-4">
         <h2 className="text-2xl font-bold text-text mb-4">
