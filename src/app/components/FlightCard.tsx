@@ -13,7 +13,14 @@ const FlightCard = ({ flight, onClick }: FlightCardProps) => {
   const departDate = new Date(flight.timestamp_depart_local_time);
   const arriveDate = new Date(flight.timestamp_arrive_local_time);
 
-  const formatTime = (date: Date) => {
+  const formatTime = (isoString: string) => {
+    // Extract time from ISO string without timezone conversion
+    const timeMatch = isoString.match(/T(\d{2}):(\d{2})/);
+    if (timeMatch) {
+      return `${timeMatch[1]}:${timeMatch[2]}`;
+    }
+    // Fallback to original method if parsing fails
+    const date = new Date(isoString);
     return date.toLocaleTimeString("en-US", {
       hour: "2-digit",
       minute: "2-digit",
@@ -50,7 +57,9 @@ const FlightCard = ({ flight, onClick }: FlightCardProps) => {
           <p className="font-bold text-lg text-gray-800">
             {flight.origin.split("(")[1]?.replace(")", "") || flight.origin}
           </p>
-          <p className="text-sm text-gray-600">{formatTime(departDate)}</p>
+          <p className="text-sm text-gray-600">
+            {formatTime(flight.timestamp_depart_local_time)}
+          </p>
           <p className="text-xs text-gray-500">{formatDate(departDate)}</p>
         </div>
 
@@ -75,7 +84,9 @@ const FlightCard = ({ flight, onClick }: FlightCardProps) => {
             {flight.destination.split("(")[1]?.replace(")", "") ||
               flight.destination}
           </p>
-          <p className="text-sm text-gray-600">{formatTime(arriveDate)}</p>
+          <p className="text-sm text-gray-600">
+            {formatTime(flight.timestamp_arrive_local_time)}
+          </p>
           <p className="text-xs text-gray-500">{formatDate(arriveDate)}</p>
         </div>
       </div>

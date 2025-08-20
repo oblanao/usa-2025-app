@@ -256,8 +256,7 @@ export default function TripPageClient({
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent z-10" />
         <div className="relative z-20 p-6 flex flex-col justify-end h-full text-white">
           <h1 className="text-4xl font-bold mb-2 drop-shadow-lg flex items-center gap-2">
-            <MapPin />
-            {trip.name}
+            {trip.tagline}
           </h1>
           <div className="flex items-center gap-2 text-white/90">
             <div>
