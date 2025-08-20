@@ -4,7 +4,7 @@ import Header from "@/app/components/Header";
 import { Day } from "@/app/lib/types";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { Calendar, Moon } from "react-feather";
+import { Calendar, Map, MapPin, Moon } from "react-feather";
 import {
   calculateNightsForPlace,
   getPlaceDateRangeLabel,
@@ -49,11 +49,11 @@ export default async function DestinationPage({
         <div className="absolute -top-8 left-1/2 -translate-x-1/2 w-[calc(100%-3rem)] max-w-sm">
           <div className="bg-white rounded-xl shadow-lg p-4 flex justify-between items-center">
             <div className="flex items-center space-x-2">
-              <Calendar className="text-gray-500" />
+              <Calendar className="text-accent" />
               <span className="text-gray-700">{dateRangeLabel}</span>
             </div>
             <div className="flex items-center space-x-2">
-              <Moon className="text-gray-500" />
+              <Moon className="text-accent" />
               <span className="text-gray-700">{`${calculateNightsForPlace(
                 place.id
               )} Nights`}</span>
@@ -62,7 +62,10 @@ export default async function DestinationPage({
         </div>
 
         <div className="mt-8">
-          <h1 className="text-3xl font-bold">{place.name}</h1>
+          <div className="flex items-center space-x-2">
+            <MapPin className="text-accent" />
+            <h1 className="text-3xl font-bold">{place.name}</h1>
+          </div>
           <div className="my-8">
             <div className="border-l-4 border-accent pl-4">
               <p className="text-lg text-gray-600 italic">
@@ -70,7 +73,10 @@ export default async function DestinationPage({
               </p>
             </div>
           </div>
-          <h2 className="text-2xl font-bold text-text mb-4">Daily Itinerary</h2>
+          <div className="flex items-center space-x-2 mb-4">
+            <Map className="text-accent" />
+            <h2 className="text-2xl font-bold text-text">Daily Itinerary</h2>
+          </div>
           <div className="space-y-6">
             {destinationDays.map((day: Day) => (
               <DayCard key={day.day_index} day={day} placeId={place.id} />

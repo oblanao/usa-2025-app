@@ -5,10 +5,8 @@ General
 - Fix glitch when scrolling to the bottom of the page, as the page slightly scrolls up after reaching the end when scrolling down on mobile phone (maybe ios chrome dependent, not sure).
 - increase bottom padding for layout, for the main content by 48px.
 
-Individual Destination Page
+Individual Day Page
 
-- Add a map pin icon prefix to the destination title
-  Individual Day Page
 - add link to next or previous days, at the bottom of the page
 - In header, dont show full title, show Show Just Day [X] - Mmm dd, i.e Day 1 - Aug 26
 - Replace Today’s events with Timeline. Use an icon next to the heading so it looks much better
