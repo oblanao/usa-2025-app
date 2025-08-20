@@ -3,19 +3,16 @@ import {
   getFlightDetails,
   getAccommodationDetails,
   getAttractions,
-  getPlaces,
 } from "../lib/data";
 import TripPageClient from "./TripPageClient";
 
 export default async function TripPage() {
-  const [trips, flights, accommodations, attractions, places] =
-    await Promise.all([
-      getTrips(),
-      getFlightDetails(),
-      getAccommodationDetails(),
-      getAttractions(),
-      getPlaces(),
-    ]);
+  const [trips, flights, accommodations, attractions] = await Promise.all([
+    getTrips(),
+    getFlightDetails(),
+    getAccommodationDetails(),
+    getAttractions(),
+  ]);
 
   return (
     <TripPageClient
@@ -23,7 +20,6 @@ export default async function TripPage() {
       flights={flights}
       accommodations={accommodations}
       attractions={attractions}
-      places={places}
     />
   );
 }

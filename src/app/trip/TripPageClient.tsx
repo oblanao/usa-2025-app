@@ -6,15 +6,16 @@ import AccommodationCard from "../components/AccommodationCard";
 import AttractionCard from "../components/AttractionCard";
 import { Send, Home, MapPin, Calendar, Star, Search } from "react-feather";
 import Image from "next/image";
-import { Trip, Attraction, Place } from "../lib/types";
+import { Trip, Attraction } from "../lib/types";
 import { FlightData, AccommodationData } from "../lib/trip-types";
+import { ComponentType } from "react";
 
 type TabType = "flights" | "accommodations" | "attractions";
 
 interface TabConfig {
   id: TabType;
   label: string;
-  icon: any;
+  icon: ComponentType<{ size?: number }>;
   count: number;
 }
 
@@ -23,7 +24,6 @@ interface TripPageClientProps {
   flights: FlightData[];
   accommodations: AccommodationData[];
   attractions: Attraction[];
-  places: Place[];
 }
 
 export default function TripPageClient({
@@ -31,7 +31,6 @@ export default function TripPageClient({
   flights,
   accommodations,
   attractions,
-  places,
 }: TripPageClientProps) {
   const [activeTab, setActiveTab] = useState<TabType>("flights");
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -50,11 +49,6 @@ export default function TripPageClient({
       month: "long",
       day: "numeric",
     });
-  };
-
-  const calculateDuration = () => {
-    const timeDiff = endDate.getTime() - startDate.getTime();
-    return Math.ceil(timeDiff / (1000 * 3600 * 24));
   };
 
   // Search functionality
