@@ -4,7 +4,7 @@ import { useState } from "react";
 import FlightCard from "../components/FlightCard";
 import AccommodationCard from "../components/AccommodationCard";
 import AttractionCard from "../components/AttractionCard";
-import { Send, Home, MapPin, Calendar, Star } from "react-feather";
+import { Send, Home, MapPin, Calendar, Star, Search } from "react-feather";
 import Image from "next/image";
 import { Trip, Attraction, Place } from "../lib/types";
 import { FlightData, AccommodationData } from "../lib/trip-types";
@@ -34,6 +34,10 @@ export default function TripPageClient({
   places,
 }: TripPageClientProps) {
   const [activeTab, setActiveTab] = useState<TabType>("flights");
+  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [submittedSearchQuery, setSubmittedSearchQuery] = useState<string>("");
+  const [filteredAttractions, setFilteredAttractions] =
+    useState<Attraction[]>(attractions);
 
   const trip = trips[0];
   const startDate = new Date(trip.timestamp_start);
@@ -53,15 +57,54 @@ export default function TripPageClient({
     return Math.ceil(timeDiff / (1000 * 3600 * 24));
   };
 
-  // Group attractions by destination
-  const attractionsByDestination = places
-    .map((place) => ({
-      place,
-      attractions: attractions.filter(
-        (attraction) => attraction.place === place.id
-      ),
-    }))
-    .filter((group) => group.attractions.length > 0);
+  // Search functionality
+  const handleSearch = () => {
+    const trimmedQuery = searchQuery.trim();
+    setSubmittedSearchQuery(trimmedQuery);
+
+    if (!trimmedQuery) {
+      setFilteredAttractions(attractions);
+      return;
+    }
+
+    const query = trimmedQuery.toLowerCase();
+
+    // Separate attractions by match type
+    const titleMatches: Attraction[] = [];
+    const descriptionOnlyMatches: Attraction[] = [];
+
+    attractions.forEach((attraction) => {
+      const nameMatch = attraction.name.toLowerCase().includes(query);
+      const descriptionMatch = attraction.description
+        .toLowerCase()
+        .includes(query);
+
+      if (nameMatch) {
+        titleMatches.push(attraction);
+      } else if (descriptionMatch) {
+        descriptionOnlyMatches.push(attraction);
+      }
+    });
+
+    // Sort title matches by length (shorter first)
+    titleMatches.sort((a, b) => a.name.length - b.name.length);
+
+    // Combine results: title matches first, then description matches
+    const filtered = [...titleMatches, ...descriptionOnlyMatches];
+
+    setFilteredAttractions(filtered);
+  };
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    handleSearch();
+  };
+
+  const handleSearchKeyPress = (e: React.KeyboardEvent) => {
+    if (e.key === "Enter") {
+      handleSearch();
+    }
+  };
 
   // Tab configuration
   const tabs: TabConfig[] = [
@@ -81,7 +124,10 @@ export default function TripPageClient({
       id: "attractions",
       label: "Attractions",
       icon: Star,
-      count: attractions.length,
+      count:
+        activeTab === "attractions"
+          ? filteredAttractions.length
+          : attractions.length,
     },
   ];
 
@@ -112,41 +158,87 @@ export default function TripPageClient({
 
       case "attractions":
         return (
-          <div className="space-y-8">
-            <h3 className="text-2xl font-bold text-gray-800">Attractions</h3>
-            {attractionsByDestination.map(
-              ({ place, attractions: placeAttractions }) => (
-                <div key={place.id}>
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="relative w-12 h-12 rounded-full overflow-hidden">
-                      <Image
-                        src={place.featured_image}
-                        alt={place.name}
-                        layout="fill"
-                        objectFit="cover"
-                      />
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-800">
-                        {place.name}
-                      </h3>
-                      <p className="text-sm text-gray-600">
-                        {placeAttractions.length} attraction
-                        {placeAttractions.length > 1 ? "s" : ""}
-                      </p>
-                    </div>
-                  </div>
+          <div className="space-y-6">
+            <div className="flex flex-col gap-4">
+              <h3 className="text-2xl font-bold text-gray-800">Attractions</h3>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    {placeAttractions.map((attraction) => (
-                      <AttractionCard
-                        key={`${attraction.place}-${attraction.name}`}
-                        attraction={attraction}
-                      />
-                    ))}
-                  </div>
+              {/* Search Bar */}
+              <form onSubmit={handleSearchSubmit} className="relative">
+                <div className="flex items-center bg-white rounded-xl border-2 border-gray-200 focus-within:border-accent transition-colors shadow-sm">
+                  <input
+                    type="text"
+                    placeholder="Search attractions by name or description..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    onKeyPress={handleSearchKeyPress}
+                    className="flex-1 px-4 py-3 bg-transparent border-0 outline-none text-gray-700 placeholder-gray-400"
+                  />
+                  <button
+                    type="submit"
+                    className="p-3 text-gray-500 hover:text-accent transition-colors"
+                    aria-label="Search"
+                  >
+                    <Search size={20} />
+                  </button>
                 </div>
-              )
+              </form>
+
+              {/* Search Results Info */}
+              {submittedSearchQuery && (
+                <div className="flex items-center justify-between text-sm text-gray-600">
+                  <span>
+                    {filteredAttractions.length} result
+                    {filteredAttractions.length !== 1 ? "s" : ""}
+                    {submittedSearchQuery && ` for "${submittedSearchQuery}"`}
+                  </span>
+                  {submittedSearchQuery && (
+                    <button
+                      onClick={() => {
+                        setSearchQuery("");
+                        setSubmittedSearchQuery("");
+                        setFilteredAttractions(attractions);
+                      }}
+                      className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    >
+                      Clear search
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
+
+            {/* Attractions Grid */}
+            {filteredAttractions.length > 0 ? (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {filteredAttractions.map((attraction) => (
+                  <AttractionCard
+                    key={`${attraction.place}-${attraction.name}`}
+                    attraction={attraction}
+                  />
+                ))}
+              </div>
+            ) : (
+              <div className="text-center py-12">
+                <div className="text-gray-400 mb-4">
+                  <Search size={48} className="mx-auto" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-600 mb-2">
+                  No attractions found
+                </h4>
+                <p className="text-gray-500">
+                  Try searching with different keywords or{" "}
+                  <button
+                    onClick={() => {
+                      setSearchQuery("");
+                      setSubmittedSearchQuery("");
+                      setFilteredAttractions(attractions);
+                    }}
+                    className="text-accent hover:text-accent/80 transition-colors font-medium underline"
+                  >
+                    view all attractions
+                  </button>
+                </p>
+              </div>
             )}
           </div>
         );
