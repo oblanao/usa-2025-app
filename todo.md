@@ -7,7 +7,6 @@ General
 
 Individual Destination Page
 
-- Redesign the welcome description section to be more visually compelling and compact, transforming the plain text block into an elegant, magazine-style introduction. Same for day page description section
 - Update icon uses for events (a map pin) to something more appropriate for attractions and activities, maybe something fun.
 - Add a map pin icon prefix to the destination title
   Individual Day Page
