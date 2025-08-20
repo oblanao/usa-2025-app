@@ -5,13 +5,6 @@ General
 - Fix glitch when scrolling to the bottom of the page, as the page slightly scrolls up after reaching the end when scrolling down on mobile phone (maybe ios chrome dependent, not sure).
 - increase bottom padding for layout, for the main content by 48px.
 
-Individual Day Page
-
-- add link to next or previous days, at the bottom of the page
-- In header, dont show full title, show Show Just Day [X] - Mmm dd, i.e Day 1 - Aug 26
-- Replace Today’s events with Timeline. Use an icon next to the heading so it looks much better
-- Instead of first heading on the page being a small calendar icon and the date in long format, we should have the day title there, as we remove it from the app header.
-
 Footer and pages structure
 
 - Today (shows index/landing page if before 26 aug, or the respective day page if users’ phone date is between 26 Aug and 10 Sep). This today page is the default page of the app.
