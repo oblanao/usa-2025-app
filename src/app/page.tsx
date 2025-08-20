@@ -28,7 +28,7 @@ export default async function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-800">
+    <div className="min-h-screen bg-background text-gray-800">
       <Header title={trip.name} />
       <div className="relative h-[calc(100vh-100px)] flex items-center justify-center text-center text-white overflow-hidden">
         <Image
@@ -59,7 +59,9 @@ export default async function Home() {
 
       <main className="p-8 pt-12 md:p-12 bg-gray-100">
         <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold text-gray-800 mb-2">Let's go!</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-2">
+            Let&apos;s go!
+          </h2>
         </div>
         <TravelerAvatars travelers={travelers} />
         <section className="max-w-7xl mx-auto mt-16">

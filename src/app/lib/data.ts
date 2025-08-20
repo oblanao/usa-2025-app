@@ -13,6 +13,7 @@ import {
   Trip,
   Traveler,
 } from './types';
+import { FlightData, AccommodationData } from './trip-types';
 
 const dataDirectory = path.join(process.cwd(), 'data');
 
@@ -117,6 +118,15 @@ export async function getTrips(): Promise<Trip[]> {
 
 export async function getTravelers(): Promise<Traveler[]> {
   return readJsonFile<Traveler[]>('travelers.json');
+}
+
+// Additional functions for trip page with detailed data
+export async function getFlightDetails(): Promise<FlightData[]> {
+  return readJsonFile<FlightData[]>('flights.json');
+}
+
+export async function getAccommodationDetails(): Promise<AccommodationData[]> {
+  return readJsonFile<AccommodationData[]>('accommodations.json');
 }
 
 export async function getReferencedItem(

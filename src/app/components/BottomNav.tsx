@@ -1,16 +1,16 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { Home, Map, FileText } from 'react-feather';
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Home, Briefcase, FileText } from "react-feather";
 
 const BottomNav = () => {
   const pathname = usePathname();
 
   const navItems = [
-    { href: '/', label: 'Timeline', icon: Home },
-    { href: '/map', label: 'Map View', icon: Map },
-    { href: '/documents', label: 'Documents', icon: FileText },
+    { href: "/", label: "Timeline", icon: Home },
+    { href: "/trip", label: "Trip Details", icon: Briefcase },
+    { href: "/documents", label: "Documents", icon: FileText },
   ];
 
   return (
@@ -21,7 +21,7 @@ const BottomNav = () => {
             href={href}
             key={label}
             className={`flex flex-col items-center justify-center w-full pt-2 pb-1 text-sm ${
-              pathname === href ? 'text-white font-bold' : 'text-white/70'
+              pathname === href ? "text-white font-bold" : "text-white/70"
             }`}
           >
             <Icon size={24} />

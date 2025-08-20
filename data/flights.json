@@ -68,7 +68,7 @@
     "timestamp_arrive_local_time": "2025-09-10T20:10:00+03:00",
     "duration": "16h 50m",
     "aircraft_type": "Airbus A350-900 / Boeing 737-700",
-    "seat_included": true,
+    "seat_included": false,
     "meal_included": true,
     "luggage_policy": "1 checked bag included, carry-on included",
     "airline": "KLM/DELTA/TAROM",
