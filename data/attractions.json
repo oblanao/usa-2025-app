@@ -16,7 +16,7 @@
     "duration": "3 hours",
     "hours_of_operation": "8:40 AM - 6:30 PM daily",
     "official_website_link": "https://www.alcatrazcitycruises.com",
-    "featured_image": "/images/attractions/alcatraz.png",
+    "featured_image": "/images/attractions/alcatraz.jpg",
     "images": [
       "https://placehold.co/800x600/003049/FFFFFF?text=Alcatraz+Cellhouse"
     ]
@@ -39,8 +39,10 @@
     "duration": "3 hours",
     "hours_of_operation": "10:00 AM - 10:00 PM daily",
     "official_website_link": "https://www.pier39.com",
-    "featured_image": "/images/attractions/fishermans-wharf.png",
-    "images": ["https://placehold.co/800x600/FCBF49/000000?text=Sea+Lions"]
+    "featured_image": "/images/attractions/fishermans-wharf.jpg",
+    "images": [
+      "https://placehold.co/800x600/FCBF49/000000?text=Sea+Lions"
+    ]
   },
   {
     "place": "san-francisco",
@@ -59,8 +61,10 @@
     "duration": "2.5 hours",
     "hours_of_operation": "Shops typically 10:00 AM - 6:00 PM daily",
     "official_website_link": "https://www.sausalito.org",
-    "featured_image": "/images/attractions/sausalito.png",
-    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Houseboats"]
+    "featured_image": "/images/attractions/sausalito.jpg",
+    "images": [
+      "https://placehold.co/800x600/EAE2B7/000000?text=Houseboats"
+    ]
   },
   {
     "place": "san-francisco",
@@ -79,8 +83,10 @@
     "duration": "30 minutes",
     "hours_of_operation": "24 hours",
     "official_website_link": "https://www.sftravel.com/things-to-do/attractions/famous-streets/lombard-street",
-    "featured_image": "/images/attractions/lombard-street.png",
-    "images": ["https://placehold.co/800x600/D62828/FFFFFF?text=Hairpin+Turns"]
+    "featured_image": "/images/attractions/lombard-street.jpg",
+    "images": [
+      "https://placehold.co/800x600/D62828/FFFFFF?text=Hairpin+Turns"
+    ]
   },
   {
     "place": "san-francisco",
@@ -99,8 +105,10 @@
     "duration": "2 hours",
     "hours_of_operation": "24 hours (shops/restaurants vary)",
     "official_website_link": "https://www.sftravel.com/explore/neighborhoods/north-beach",
-    "featured_image": "/images/attractions/north-beach.png",
-    "images": ["https://placehold.co/800x600/F77F00/FFFFFF?text=Coit+Tower"]
+    "featured_image": "/images/attractions/north-beach.jpg",
+    "images": [
+      "https://placehold.co/800x600/F77F00/FFFFFF?text=Coit+Tower"
+    ]
   },
   {
     "place": "san-francisco",
@@ -119,8 +127,10 @@
     "duration": "45 minutes",
     "hours_of_operation": "Park is open 5:00 AM - 12:00 AM daily",
     "official_website_link": "https://sfrecpark.org/777/Alamo-Square",
-    "featured_image": "/images/attractions/painted-ladies.png",
-    "images": ["https://placehold.co/800x600/003049/FFFFFF?text=Alamo+Square"]
+    "featured_image": "/images/attractions/painted-ladies.jpg",
+    "images": [
+      "https://placehold.co/800x600/003049/FFFFFF?text=Alamo+Square"
+    ]
   },
   {
     "place": "san-francisco",
@@ -139,7 +149,7 @@
     "duration": "1.5 hours",
     "hours_of_operation": "24 hours",
     "official_website_link": "https://www.presidio.gov/places/crissy-field",
-    "featured_image": "/images/attractions/crissy-field.png",
+    "featured_image": "/images/attractions/crissy-field.jpg",
     "images": [
       "https://placehold.co/800x600/FCBF49/000000?text=Bridge+from+Field"
     ]
@@ -161,8 +171,10 @@
     "duration": "1.5 hours",
     "hours_of_operation": "Pedestrian sidewalk open 5:00 AM - 9:00 PM daily",
     "official_website_link": "https://www.goldengate.org/",
-    "featured_image": "/images/attractions/golden-gate-bridge.png",
-    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Bridge+View"]
+    "featured_image": "/images/attractions/golden-gate-bridge.jpg",
+    "images": [
+      "https://placehold.co/800x600/EAE2B7/000000?text=Bridge+View"
+    ]
   },
   {
     "place": "san-francisco",
@@ -181,7 +193,7 @@
     "duration": "45 minutes",
     "hours_of_operation": "Sunrise to Sunset daily",
     "official_website_link": "https://www.nps.gov/goga/planyourvisit/battery-spencer.htm",
-    "featured_image": "/images/attractions/battery-spencer.png",
+    "featured_image": "/images/attractions/battery-spencer.jpg",
     "images": [
       "https://placehold.co/800x600/D62828/FFFFFF?text=Bridge+Viewpoint"
     ]
@@ -204,7 +216,7 @@
     "duration": "3 hours",
     "hours_of_operation": "9:00 AM - 5:45 PM daily (Japanese Tea Garden)",
     "official_website_link": "https://www.japaneseteagardensf.com/",
-    "featured_image": "/images/attractions/japanese-tea-garden.png",
+    "featured_image": "/images/attractions/japanese-tea-garden.jpg",
     "images": [
       "https://placehold.co/800x600/F77F00/FFFFFF?text=Japanese+Garden"
     ]
@@ -226,8 +238,10 @@
     "duration": "45 minutes",
     "hours_of_operation": "5:00 AM - 12:00 AM daily",
     "official_website_link": "https://sfrecpark.org/773/Twin-Peaks",
-    "featured_image": "/images/attractions/twin-peaks.png",
-    "images": ["https://placehold.co/800x600/003049/FFFFFF?text=SF+View"]
+    "featured_image": "/images/attractions/twin-peaks.jpg",
+    "images": [
+      "https://placehold.co/800x600/003049/FFFFFF?text=SF+View"
+    ]
   },
   {
     "place": "honolulu",
@@ -246,8 +260,10 @@
     "duration": "3 hours",
     "hours_of_operation": "24 hours",
     "official_website_link": "https://www.gohawaii.com/islands/oahu/regions/honolulu/Waikiki",
-    "featured_image": "/images/attractions/waikiki-beach.png",
-    "images": ["https://placehold.co/800x600/FCBF49/000000?text=Diamond+Head"]
+    "featured_image": "/images/attractions/waikiki-beach.jpg",
+    "images": [
+      "https://placehold.co/800x600/FCBF49/000000?text=Diamond+Head"
+    ]
   },
   {
     "place": "honolulu",
@@ -266,8 +282,10 @@
     "duration": "2 hours",
     "hours_of_operation": "Sunrise to Sunset daily",
     "official_website_link": "https://www.hiltonhawaiianvillage.com/lagoon",
-    "featured_image": "/images/attractions/kahanamoku-lagoon.png",
-    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Lagoon+Fun"]
+    "featured_image": "/images/attractions/kahanamoku-lagoon.jpg",
+    "images": [
+      "https://placehold.co/800x600/EAE2B7/000000?text=Lagoon+Fun"
+    ]
   },
   {
     "place": "honolulu",
@@ -286,8 +304,10 @@
     "duration": "2 hours",
     "hours_of_operation": "10:00 AM to 9:00 PM daily",
     "official_website_link": "https://shopinternationalmarketplace.com/",
-    "featured_image": "/images/attractions/international-market-place.png",
-    "images": ["https://placehold.co/800x600/D62828/FFFFFF?text=Banyan+Tree"]
+    "featured_image": "/images/attractions/international-market-place.jpg",
+    "images": [
+      "https://placehold.co/800x600/D62828/FFFFFF?text=Banyan+Tree"
+    ]
   },
   {
     "id": "hoomaluhia-botanical-gardens",
@@ -307,8 +327,10 @@
     "duration": "2.5 hours",
     "hours_of_operation": "9:00 AM to 4:00 PM daily",
     "official_website_link": "https://www.honolulu.gov/parks/hbg/ho-omaluhia-botanical-garden.html",
-    "featured_image": "/images/attractions/hoomaluhia-botanical-gardens.png",
-    "images": ["https://placehold.co/800x600/F77F00/FFFFFF?text=Entrance+Road"]
+    "featured_image": "/images/attractions/hoomaluhia-botanical-gardens.jpg",
+    "images": [
+      "https://placehold.co/800x600/F77F00/FFFFFF?text=Entrance+Road"
+    ]
   },
   {
     "place": "honolulu",
@@ -327,8 +349,10 @@
     "duration": "1.5 hours",
     "hours_of_operation": "Sunrise to Sunset daily",
     "official_website_link": "https://www.alltrails.com/trail/hawaii/oahu/lanikai-pillbox-trail-kaiwa-ridge-trail",
-    "featured_image": "/images/attractions/lanikai-pillbox-trail.png",
-    "images": ["https://placehold.co/800x600/003049/FFFFFF?text=Sunrise+Hike"]
+    "featured_image": "/images/attractions/lanikai-pillbox-trail.jpg",
+    "images": [
+      "https://placehold.co/800x600/003049/FFFFFF?text=Sunrise+Hike"
+    ]
   },
   {
     "id": "diamond-head",
@@ -348,8 +372,10 @@
     "duration": "2 hours",
     "hours_of_operation": "6:00 AM - 6:00 PM daily",
     "official_website_link": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/",
-    "featured_image": "/images/attractions/diamond-head.png",
-    "images": ["https://placehold.co/800x600/FCBF49/000000?text=Summit+View"]
+    "featured_image": "/images/attractions/diamond-head.jpg",
+    "images": [
+      "https://placehold.co/800x600/FCBF49/000000?text=Summit+View"
+    ]
   },
   {
     "place": "honolulu",
@@ -368,8 +394,10 @@
     "duration": "1 hour",
     "hours_of_operation": "8:00 AM - 5:00 PM daily",
     "official_website_link": "https://magnumhelicopters.com/",
-    "featured_image": "/images/attractions/helicopter-tour.png",
-    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Volcano+View"]
+    "featured_image": "/images/attractions/helicopter-tour.jpg",
+    "images": [
+      "https://placehold.co/800x600/EAE2B7/000000?text=Volcano+View"
+    ]
   },
   {
     "place": "honolulu",
@@ -388,7 +416,7 @@
     "duration": "2.5 hours",
     "hours_of_operation": "7:30 AM - 6:00 PM daily",
     "official_website_link": "https://www.kualoa.com/",
-    "featured_image": "/images/attractions/kualoa-ranch.png",
+    "featured_image": "/images/attractions/kualoa-ranch.jpg",
     "images": [
       "https://placehold.co/800x600/D62828/FFFFFF?text=Jurassic+Valley"
     ]
@@ -410,8 +438,10 @@
     "duration": "1.5 hours",
     "hours_of_operation": "9:00 AM - 4:00 PM Tuesday-Saturday",
     "official_website_link": "https://www.iolanipalace.org/",
-    "featured_image": "/images/attractions/iolani-palace.png",
-    "images": ["https://placehold.co/800x600/F77F00/FFFFFF?text=Throne+Room"]
+    "featured_image": "/images/attractions/iolani-palace.jpg",
+    "images": [
+      "https://placehold.co/800x600/F77F00/FFFFFF?text=Throne+Room"
+    ]
   },
   {
     "place": "honolulu",
@@ -430,7 +460,7 @@
     "duration": "1.5 hours",
     "hours_of_operation": "8:00 AM - 4:00 PM daily",
     "official_website_link": "https://dlnr.hawaii.gov/dsp/hiking/oahu/manoa-falls-trail/",
-    "featured_image": "/images/attractions/manoa-falls.png",
+    "featured_image": "/images/attractions/manoa-falls.jpg",
     "images": [
       "https://placehold.co/800x600/003049/FFFFFF?text=Rainforest+Hike"
     ]
@@ -452,8 +482,10 @@
     "duration": "2 hours",
     "hours_of_operation": "10:00 AM - 7:00 PM daily (shops)",
     "official_website_link": "https://rodeodrive-bh.com/",
-    "featured_image": "/images/attractions/rodeo-drive.png",
-    "images": ["https://placehold.co/800x600/FCBF49/000000?text=Beverly+Hills"]
+    "featured_image": "/images/attractions/rodeo-drive.jpg",
+    "images": [
+      "https://placehold.co/800x600/FCBF49/000000?text=Beverly+Hills"
+    ]
   },
   {
     "place": "los-angeles",
@@ -473,7 +505,9 @@
     "hours_of_operation": "24 hours",
     "official_website_link": "https://walkoffame.com/",
     "featured_image": "/images/attractions/hollywood-walk-of-fame.jpg",
-    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Hollywood+Star"]
+    "images": [
+      "https://placehold.co/800x600/EAE2B7/000000?text=Hollywood+Star"
+    ]
   },
   {
     "place": "los-angeles",
@@ -492,8 +526,10 @@
     "duration": "1 hour",
     "hours_of_operation": "10:00 AM - 11:00 PM daily (varies)",
     "official_website_link": "https://www.tclchinesetheatres.com/",
-    "featured_image": "/images/attractions/tcl-chinese-theatre.png",
-    "images": ["https://placehold.co/800x600/D62828/FFFFFF?text=Handprints"]
+    "featured_image": "/images/attractions/tcl-chinese-theatre.jpg",
+    "images": [
+      "https://placehold.co/800x600/D62828/FFFFFF?text=Handprints"
+    ]
   },
   {
     "place": "los-angeles",
@@ -512,8 +548,10 @@
     "duration": "2.5 hours",
     "hours_of_operation": "12:00 PM - 10:00 PM weekdays, 10:00 AM - 10:00 PM weekends",
     "official_website_link": "https://griffithobservatory.org/",
-    "featured_image": "/images/attractions/griffith-observatory.png",
-    "images": ["https://placehold.co/800x600/F77F00/FFFFFF?text=City+View"]
+    "featured_image": "/images/attractions/griffith-observatory.jpg",
+    "images": [
+      "https://placehold.co/800x600/F77F00/FFFFFF?text=City+View"
+    ]
   },
   {
     "place": "los-angeles",
@@ -532,8 +570,10 @@
     "duration": "45 minutes",
     "hours_of_operation": "24 hours (viewing), Sunrise to Sunset (hiking)",
     "official_website_link": "https://www.hollywoodsign.org/",
-    "featured_image": "/images/attractions/hollywood-sign.png",
-    "images": ["https://placehold.co/800x600/003049/FFFFFF?text=Sign+View"]
+    "featured_image": "/images/attractions/hollywood-sign.jpg",
+    "images": [
+      "https://placehold.co/800x600/003049/FFFFFF?text=Sign+View"
+    ]
   },
   {
     "place": "los-angeles",
@@ -552,8 +592,10 @@
     "duration": "3 hours",
     "hours_of_operation": "24 hours (pier), park hours vary",
     "official_website_link": "https://santamonicapier.org/",
-    "featured_image": "/images/attractions/santa-monica-pier.png",
-    "images": ["https://placehold.co/800x600/FCBF49/000000?text=Ferris+Wheel"]
+    "featured_image": "/images/attractions/santa-monica-pier.jpg",
+    "images": [
+      "https://placehold.co/800x600/FCBF49/000000?text=Ferris+Wheel"
+    ]
   },
   {
     "place": "los-angeles",
@@ -572,8 +614,10 @@
     "duration": "2.5 hours",
     "hours_of_operation": "24 hours (boardwalk), shops vary",
     "official_website_link": "https://www.laparks.org/venice",
-    "featured_image": "/images/attractions/venice-beach.png",
-    "images": ["https://placehold.co/800x600/EAE2B7/000000?text=Boardwalk"]
+    "featured_image": "/images/attractions/venice-beach.jpg",
+    "images": [
+      "https://placehold.co/800x600/EAE2B7/000000?text=Boardwalk"
+    ]
   },
   {
     "place": "los-angeles",
