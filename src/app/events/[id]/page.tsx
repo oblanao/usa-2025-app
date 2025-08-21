@@ -2,7 +2,18 @@ import { getEventById, getReferencedItem } from "@/app/lib/data";
 import Header from "@/app/components/Header";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { Clock, Calendar, Info, MapPin } from "react-feather";
+import {
+  Clock,
+  Calendar,
+  Info,
+  MapPin,
+  Send,
+  Home,
+  Camera,
+  Coffee,
+  Truck,
+  ShoppingCart,
+} from "react-feather";
 import FlightCard from "@/app/components/FlightCard";
 import AttractionCard from "@/app/components/AttractionCard";
 import AccommodationCard from "@/app/components/AccommodationCard";
@@ -110,42 +121,21 @@ export default async function EventPage({ params }: EventPageProps) {
   const getEventTypeIcon = (type: string) => {
     switch (type) {
       case "flight":
-        return "✈️";
+        return Send;
       case "accommodation":
-        return "🏠";
+        return Home;
       case "attraction":
-        return "📸";
+        return Camera;
       case "restaurant":
-        return "🍽️";
+        return Coffee;
       case "tour":
-        return "🗺️";
+        return MapPin;
       case "transfer":
-        return "🚗";
+        return Truck;
       case "store":
-        return "🛒";
+        return ShoppingCart;
       default:
-        return "📅";
-    }
-  };
-
-  const getEventTypeColor = (type: string) => {
-    switch (type) {
-      case "flight":
-        return "bg-blue-500";
-      case "accommodation":
-        return "bg-green-500";
-      case "attraction":
-        return "bg-purple-500";
-      case "restaurant":
-        return "bg-orange-500";
-      case "tour":
-        return "bg-indigo-500";
-      case "transfer":
-        return "bg-gray-500";
-      case "store":
-        return "bg-pink-500";
-      default:
-        return "bg-accent";
+        return Calendar;
     }
   };
 
@@ -209,69 +199,23 @@ export default async function EventPage({ params }: EventPageProps) {
       <Header title={"Event Details"} showBackButton />
 
       {/* Hero Section with Event Header */}
-      <div className="relative">
-        {referencedItem && "featured_image" in referencedItem && (
-          <>
-            <div className="relative h-64 w-full overflow-hidden">
-              <Image
-                src={referencedItem.featured_image}
-                alt={event.title}
-                layout="fill"
-                objectFit="cover"
-                className="opacity-80"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
-            </div>
-
-            {/* Floating Event Type Badge */}
-            <div className="absolute top-4 right-4">
-              <div
-                className={`${getEventTypeColor(
-                  event.referenced_item_type
-                )} text-white px-3 py-2 rounded-full shadow-lg`}
-              >
-                <div className="flex items-center gap-2">
-                  <span className="text-lg">
-                    {getEventTypeIcon(event.referenced_item_type)}
-                  </span>
-                  <span className="text-sm font-semibold capitalize">
-                    {event.referenced_item_type}
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Event Title Overlay */}
-            <div className="absolute bottom-0 left-0 right-0 p-4">
-              <h1 className="text-3xl font-extrabold text-white drop-shadow-lg leading-tight">
-                {event.title}
-              </h1>
-            </div>
-          </>
-        )}
-
-        {/* If no featured image, show a clean header */}
-        {(!referencedItem || !("featured_image" in referencedItem)) && (
-          <div className="bg-gradient-accent p-4">
-            <div className="flex items-center gap-3 mb-4">
-              <div
-                className={`${getEventTypeColor(
-                  event.referenced_item_type
-                )} text-white p-3 rounded-full shadow-lg`}
-              >
-                <span className="text-2xl">
-                  {getEventTypeIcon(event.referenced_item_type)}
-                </span>
-              </div>
-              <span className="text-white/90 text-sm font-semibold uppercase tracking-wide">
-                {event.referenced_item_type}
-              </span>
-            </div>
-            <h1 className="text-3xl font-extrabold text-white leading-tight">
-              {event.title}
-            </h1>
+      <div className="bg-gradient-accent p-4">
+        <div className="flex items-center gap-3 mb-4">
+          <div className="bg-white text-accent p-3 rounded-full shadow-lg">
+            {(() => {
+              const IconComponent = getEventTypeIcon(
+                event.referenced_item_type
+              );
+              return <IconComponent size={24} />;
+            })()}
           </div>
-        )}
+          <span className="text-white/90 text-sm font-semibold uppercase tracking-wide">
+            {event.referenced_item_type}
+          </span>
+        </div>
+        <h1 className="text-3xl font-extrabold text-white leading-tight">
+          {event.title}
+        </h1>
       </div>
 
       {/* Event Details Section */}

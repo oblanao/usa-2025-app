@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Clock, DollarSign, MapPin, ExternalLink } from "react-feather";
+import { Clock, DollarSign, MapPin } from "react-feather";
 import Image from "next/image";
 import { Tour } from "@/app/lib/types";
 
@@ -56,20 +56,16 @@ const TourCard = ({ tour, onClick }: TourCardProps) => {
           {tour.description}
         </p>
 
-        <div className="flex items-center justify-between pt-3 border-t border-gray-100">
-          <div className="flex items-center gap-3">
-            <div className="flex items-center gap-1 text-gray-500">
-              <Clock className="w-3 h-3" />
-              <span className="text-xs">{tour.duration}</span>
-            </div>
-            <div className="flex items-center gap-1 text-gray-500">
-              <DollarSign className="w-3 h-3" />
-              <span className="text-xs">{tour.cost?.replace("$", "")}</span>
-            </div>
+        <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+          <div className="flex items-center gap-2">
+            <DollarSign className="w-4 h-4 text-accent" />
+            <span className="text-lg font-bold text-accent">
+              {tour.cost?.replace("$", "")}
+            </span>
           </div>
-          <div className="flex items-center gap-1 text-accent">
-            <ExternalLink className="w-3 h-3" />
-            <span className="text-xs font-medium">Book Tour</span>
+          <div className="flex items-center gap-1 text-gray-500">
+            <Clock className="w-4 h-4" />
+            <span className="text-sm font-medium">{tour.duration}</span>
           </div>
         </div>
       </div>
