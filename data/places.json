@@ -3,7 +3,7 @@
     "id": "san-francisco",
     "name": "San Francisco",
     "days": [1, 2, 3, 4],
-    "featured_image": "/images/san-francisco-destination-card.png",
+    "featured_image": "/images/san-francisco-destination-card.jpg",
     "images": [
       "https://placehold.co/800x600/FF6B35/FFFFFF?text=Golden+Gate+Bridge",
       "https://placehold.co/800x600/4A90E2/FFFFFF?text=Alcatraz+Island",
@@ -15,7 +15,7 @@
     "id": "honolulu",
     "name": "Honolulu",
     "days": [5, 6, 7, 8, 9, 10],
-    "featured_image": "/images/honolulu-destination-card.png",
+    "featured_image": "/images/honolulu-destination-card.jpg",
     "images": [
       "https://placehold.co/800x600/FFD700/FFFFFF?text=Waikiki+Beach",
       "https://placehold.co/800x600/32CD32/FFFFFF?text=Diamond+Head",
@@ -27,7 +27,7 @@
     "id": "los-angeles",
     "name": "Los Angeles",
     "days": [11, 12, 13, 14, 15],
-    "featured_image": "/images/los-angeles-destination-card.png",
+    "featured_image": "/images/los-angeles-destination-card.jpg",
     "images": [
       "https://placehold.co/800x600/8A2BE2/FFFFFF?text=Hollywood+Sign",
       "https://placehold.co/800x600/FF69B4/FFFFFF?text=Beverly+Hills",
