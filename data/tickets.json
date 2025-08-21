@@ -1,8 +1,8 @@
 [
   {
     "id": "alcatraz-tour-ticket",
-    "ticket_type": "tour",
-    "reference_item_id": "alcatraz-tour",
+    "ticket_type": "attraction",
+    "reference_item_id": "alcatraz-day-tour",
     "cost": "$45",
     "is_purchased": true
   },

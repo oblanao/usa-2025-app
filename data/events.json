@@ -66,8 +66,8 @@
     "id": "event-008",
     "day_index": 2,
     "timestamp_start_local_time": "2025-08-27T08:40:00-07:00",
-    "referenced_item_type": "tour",
-    "referenced_item_id": "alcatraz-tour",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "alcatraz-day-tour",
     "title": "Alcatraz Day Tour",
     "description": "Self-guided tour of infamous federal penitentiary with award-winning audio tour"
   },
@@ -291,9 +291,9 @@
     "id": "event-033",
     "day_index": 7,
     "timestamp_start_local_time": "2025-09-01T10:30:00-10:00",
-    "referenced_item_type": "tour",
-    "referenced_item_id": "helicopter-tour",
-    "title": "MaunaLoa Doors-Off Helicopter Tour",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "magnum-pi-helicopter-tour",
+    "title": "Doors-Off Helicopter Tour",
     "description": "Incredible aerial adventure showcasing Oahu's stunning landscapes from unique perspective"
   },
   {
@@ -318,10 +318,10 @@
     "id": "event-036",
     "day_index": 8,
     "timestamp_start_local_time": "2025-09-02T09:40:00-10:00",
-    "referenced_item_type": "tour",
-    "referenced_item_id": "kualoa-ranch-tour",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "kualoa-ranch",
     "title": "Kualoa Ranch Adventure Package",
-    "description": "Full-day adventure featuring movie sites tours, UTV driving, and catamaran cruise"
+    "description": "Full-day adventure featuring movie sites, UTV driving and Hollywood Backlot tours."
   },
   {
     "id": "event-037",

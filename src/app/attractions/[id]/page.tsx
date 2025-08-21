@@ -279,7 +279,7 @@ export default async function AttractionPage({ params }: AttractionPageProps) {
               <span className="font-semibold">Cost:</span>{" "}
               {attraction.cost === "$0"
                 ? "Free entry"
-                : `Budget ${attraction.cost} per person`}
+                : `Budget ${attraction.cost} per couple`}
             </p>
           </div>
         </div>
