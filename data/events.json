@@ -229,7 +229,7 @@
     "day_index": 6,
     "timestamp_start_local_time": "2025-08-31T09:15:00-10:00",
     "referenced_item_type": "attraction",
-    "referenced_item_id": "hoomaluhia-gardens",
+    "referenced_item_id": "hoomaluhia-botanical-gardens",
     "title": "Ho'omaluhia Botanical Gardens",
     "description": "400-acre rainforest sanctuary with Instagram-famous palm tree entrance"
   },
@@ -247,7 +247,7 @@
     "day_index": 6,
     "timestamp_start_local_time": "2025-08-31T12:15:00-10:00",
     "referenced_item_type": "attraction",
-    "referenced_item_id": "lanikai-pillbox",
+    "referenced_item_id": "lanikai-pillbox-trail",
     "title": "Lanikai Pillbox Trail Hike",
     "description": "Moderate hike to WWII observation posts with stunning Mokulua Islands views"
   },
@@ -454,7 +454,7 @@
     "day_index": 12,
     "timestamp_start_local_time": "2025-09-06T09:30:00-07:00",
     "referenced_item_type": "attraction",
-    "referenced_item_id": "beverly-hills",
+    "referenced_item_id": "beverly-hills-and-rodeo-drive",
     "title": "Beverly Hills & Rodeo Drive",
     "description": "Luxury shopping and celebrity star hunting on world-famous street"
   },
@@ -472,7 +472,7 @@
     "day_index": 12,
     "timestamp_start_local_time": "2025-09-06T12:00:00-07:00",
     "referenced_item_type": "attraction",
-    "referenced_item_id": "hollywood-walk",
+    "referenced_item_id": "hollywood-walk-of-fame",
     "title": "Hollywood Walk of Fame",
     "description": "Walk among 2,700+ celebrity stars embedded in sidewalk"
   },
@@ -535,7 +535,7 @@
     "day_index": 13,
     "timestamp_start_local_time": "2025-09-07T14:00:00-07:00",
     "referenced_item_type": "attraction",
-    "referenced_item_id": "venice-beach",
+    "referenced_item_id": "venice-beach-boardwalk",
     "title": "Venice Beach Boardwalk",
     "description": "Eclectic bohemian atmosphere with street performers and Muscle Beach"
   },
@@ -562,7 +562,7 @@
     "day_index": 14,
     "timestamp_start_local_time": "2025-09-08T10:00:00-07:00",
     "referenced_item_type": "attraction",
-    "referenced_item_id": "universal-studios",
+    "referenced_item_id": "universal-studios-hollywood",
     "title": "Universal Studios Hollywood",
     "description": "Full day immersion in working movie studio with Harry Potter and Nintendo worlds"
   },
