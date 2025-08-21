@@ -9,7 +9,7 @@ const BottomNav = () => {
 
   const navItems = [
     { href: "/", label: "Home", icon: Home },
-    { href: "/trip", label: "Trip Details", icon: Briefcase },
+    { href: "/trip", label: "Trip", icon: Briefcase },
     { href: "/help", label: "Help", icon: LifeBuoy },
   ];
 
