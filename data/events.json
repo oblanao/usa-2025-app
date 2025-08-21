@@ -308,7 +308,7 @@
   {
     "id": "event-035",
     "day_index": 8,
-    "timestamp_start_local_time": "2025-09-02T07:45:00-10:00",
+    "timestamp_start_local_time": "2025-09-02T06:30:00-10:00",
     "referenced_item_type": "transfer",
     "referenced_item_id": "waikiki-to-kualoa",
     "title": "Transfer to Kualoa Ranch",
@@ -317,7 +317,7 @@
   {
     "id": "event-036",
     "day_index": 8,
-    "timestamp_start_local_time": "2025-09-02T09:40:00-10:00",
+    "timestamp_start_local_time": "2025-09-02T07:45:00-10:00",
     "referenced_item_type": "attraction",
     "referenced_item_id": "kualoa-ranch",
     "title": "Kualoa Ranch Adventure Package",
@@ -326,7 +326,7 @@
   {
     "id": "event-037",
     "day_index": 8,
-    "timestamp_start_local_time": "2025-09-02T17:30:00-10:00",
+    "timestamp_start_local_time": "2025-09-02T14:00:00-10:00",
     "referenced_item_type": "transfer",
     "referenced_item_id": "kualoa-to-waikiki",
     "title": "Return from Kualoa Ranch",

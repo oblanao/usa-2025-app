@@ -57,10 +57,10 @@ const TransferCard = ({ transfer, onClick }: TransferCardProps) => {
         {/* From Location */}
         <div className="flex items-start gap-3">
           <div className="flex-shrink-0 mt-1">
-            <div className="w-3 h-3 bg-blue-300 rounded-full"></div>
+            <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
           </div>
           <div className="flex-1 min-w-0">
-            <p className="text-xs font-medium text-blue-600 uppercase tracking-wide mb-1">
+            <p className="text-xs font-medium text-blue-400 uppercase tracking-wide mb-1">
               FROM
             </p>
             <p className="text-sm font-semibold text-gray-800 leading-tight break-words">
@@ -75,7 +75,7 @@ const TransferCard = ({ transfer, onClick }: TransferCardProps) => {
             <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
           </div>
           <div className="flex-1 min-w-0">
-            <p className="text-xs font-medium text-orange-600 uppercase tracking-wide mb-1">
+            <p className="text-xs font-medium text-blue-600 uppercase tracking-wide mb-1">
               TO
             </p>
             <p className="text-sm font-semibold text-gray-800 leading-tight break-words">

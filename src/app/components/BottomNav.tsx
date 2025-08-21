@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Briefcase, FileText } from "react-feather";
+import { Home, Briefcase, HelpCircle } from "react-feather";
 
 const BottomNav = () => {
   const pathname = usePathname();
@@ -10,7 +10,7 @@ const BottomNav = () => {
   const navItems = [
     { href: "/", label: "Home", icon: Home },
     { href: "/trip", label: "Trip Details", icon: Briefcase },
-    { href: "/documents", label: "Documents", icon: FileText },
+    { href: "/help", label: "Help", icon: HelpCircle },
   ];
 
   return (

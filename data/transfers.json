@@ -110,20 +110,20 @@
   {
     "id": "waikiki-to-kualoa",
     "name": "Waikiki to Kualoa Ranch",
-    "origin": "444 Kānekapōlei Street, Honolulu",
+    "origin": "Waikiki Sands Hotel, Honolulu",
     "destination": "Kualoa Ranch, Kaneohe",
     "duration": "75 minutes",
     "cost": "$60",
-    "type": "uber"
+    "type": "package"
   },
   {
     "id": "kualoa-to-waikiki",
     "name": "Kualoa Ranch to Waikiki",
     "origin": "Kualoa Ranch, Kaneohe",
-    "destination": "444 Kānekapōlei Street, Honolulu",
+    "destination": "Waikiki Sands Hotel, Honolulu",
     "duration": "75 minutes",
     "cost": "$60",
-    "type": "uber"
+    "type": "package"
   },
   {
     "id": "waikiki-to-downtown",

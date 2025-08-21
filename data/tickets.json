@@ -29,9 +29,9 @@
   },
   {
     "id": "kualoa-ranch-ticket",
-    "ticket_type": "tour",
-    "reference_item_id": "kualoa-ranch-tour",
-    "cost": "$500",
-    "is_purchased": false
+    "ticket_type": "attraction",
+    "reference_item_id": "kualoa-ranch",
+    "cost": "$515",
+    "is_purchased": true
   }
 ]
