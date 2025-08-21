@@ -13,7 +13,7 @@ import {
   Trip,
   Traveler,
 } from './types';
-import { FlightData, AccommodationData } from './trip-types';
+import { FlightData, AccommodationData, TransferData } from './trip-types';
 
 const dataDirectory = path.join(process.cwd(), 'data');
 
@@ -137,13 +137,16 @@ export async function getReferencedItem(
     case 'attraction':
       return getAttractionById(id);
     case 'flight':
-      return getFlightById(id);
+      const flights = await getFlightDetails();
+      return flights.find(flight => flight.id === id);
     case 'accommodation':
-      return getAccommodationById(id);
+      const accommodations = await getAccommodationDetails();
+      return accommodations.find(acc => acc.id === id);
     case 'tour':
       return getTourById(id);
     case 'transfer':
-      return getTransferById(id);
+      const transfers = await readJsonFile<TransferData[]>('transfers.json');
+      return transfers.find(transfer => transfer.id === id);
     case 'store':
       return getStoreById(id);
     default:

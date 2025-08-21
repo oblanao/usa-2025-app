@@ -34,3 +34,13 @@ export type AccommodationData = {
   free_cancellation: boolean;
   other_notes: string;
 };
+
+export type TransferData = {
+  id: string;
+  name: string;
+  origin: string;
+  destination: string;
+  duration: string;
+  cost: string;
+  type: string;
+};
