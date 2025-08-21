@@ -7,7 +7,7 @@
     "attractions": ["alcatraz"],
     "cost": "$45",
     "description": "Self-guided tour of the infamous federal penitentiary with award-winning 'Doing Time' audio tour narrated by former inmates and guards. Includes ferry transportation from Pier 33, exploration of historic cellhouse with 378 cells, recreation yard, dining hall, and restored gardens. The tour covers the island's multi-layered history from lighthouse and Civil War fortress to prison and Native American occupation site.",
-    "featured_image": "/images/attractions/alcatraz.png",
+    "featured_image": "/images/attractions/alcatraz.jpg",
     "images": [
       "https://placehold.co/800x600/708090/FFFFFF?text=Ferry+Ride",
       "https://placehold.co/800x600/2F4F4F/FFFFFF?text=Prison+Interior",
@@ -23,7 +23,7 @@
     "attractions": ["diamond-head", "waikiki-beach", "kailua-beach"],
     "cost": "$650",
     "description": "Incredible aerial adventure showcasing Oahu's stunning landscapes from unique bird's-eye perspective. This doors-off experience provides completely unobstructed views and photography opportunities of Waikiki, Diamond Head crater, Kailua Beach, Jurassic Valley, North Shore, and Pearl Harbor. Professional pilots with decades of local experience provide expert commentary about geological formations and Hawaiian culture throughout the flight.",
-    "featured_image": "/images/attractions/helicopter-tour.png",
+    "featured_image": "/images/attractions/helicopter-tour.jpg",
     "images": [
       "https://placehold.co/800x600/00CED1/FFFFFF?text=Aerial+Views",
       "https://placehold.co/800x600/32CD32/FFFFFF?text=Diamond+Head+Aerial",
@@ -39,7 +39,7 @@
     "attractions": ["kualoa-ranch"],
     "cost": "$280",
     "description": "Full-day adventure at 'Hollywood's Hawaii Backlot' featuring three exciting tours. Movie Sites & Ranch Tour visits filming locations from Jurassic Park, LOST, Godzilla, and Kong: Skull Island in custom vehicles. UTV & Raptor Tour allows visitors to drive their own all-terrain vehicles through scenic valleys and movie locations. Ocean Voyage Tour includes catamaran cruise along the windward coast with spectacular Ko'olau Mountains views.",
-    "featured_image": "/images/attractions/kualoa-ranch.png",
+    "featured_image": "/images/attractions/kualoa-ranch.jpg",
     "images": [
       "https://placehold.co/800x600/8FBC8F/FFFFFF?text=Movie+Sets",
       "https://placehold.co/800x600/F4A460/FFFFFF?text=UTV+Adventure",
