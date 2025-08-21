@@ -1,2 +1,8 @@
+Major
+
+- add images to attractions
+
+Minor
+
 - Update favicon and meta
-- Optimiza images from PNG to JPEG and appropriate sizes
+- Optimize images from PNG to JPEG and appropriate sizes
