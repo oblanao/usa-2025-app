@@ -58,7 +58,7 @@ const HelpPage = () => {
                 More Tools Coming Soon
               </h3>
               <p className="text-sm text-gray-500">
-                We're adding more helpful features
+                We&apos;re adding more helpful features
               </p>
             </div>
           </div>
@@ -115,8 +115,8 @@ const HelpPage = () => {
             <h3 className="text-xl font-bold">Need More Help?</h3>
           </div>
           <p className="text-white/90 mb-4 leading-relaxed">
-            Have questions about your itinerary or need travel assistance? We're
-            here to help make your trip unforgettable.
+            Have questions about your itinerary or need travel assistance?
+            We&apos;re here to help make your trip unforgettable.
           </p>
           <div className="text-sm text-white/80">
             <p>📱 Available 24/7 during your trip</p>
