@@ -77,6 +77,9 @@ export type Tour = {
   provider: string;
   booking_link: string;
   confirmation_number: string;
+  duration: string;
+  cost: string;
+  description: string;
   featured_image: string;
   images: string[];
 };

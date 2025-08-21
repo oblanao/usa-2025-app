@@ -40,7 +40,7 @@ const AttractionCard = ({ attraction, onClick }: AttractionCardProps) => {
       }`}
       onClick={onClick}
     >
-      <div className="relative h-32 overflow-hidden">
+      <div className="relative h-48 overflow-hidden">
         <Image
           src={attraction.featured_image}
           alt={attraction.name}

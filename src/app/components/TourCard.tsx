@@ -21,7 +21,7 @@ const TourCard = ({ tour, onClick }: TourCardProps) => {
       }`}
       onClick={onClick}
     >
-      <div className="relative h-32 overflow-hidden">
+      <div className="relative h-48 overflow-hidden">
         <Image
           src={tour.featured_image}
           alt={tour.name}
