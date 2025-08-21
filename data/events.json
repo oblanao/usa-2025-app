@@ -76,7 +76,7 @@
     "day_index": 2,
     "timestamp_start_local_time": "2025-08-27T12:30:00-07:00",
     "referenced_item_type": "attraction",
-    "referenced_item_id": "fishermans-wharf",
+    "referenced_item_id": "fishermans-wharf-and-pier-39",
     "title": "Fisherman's Wharf Lunch",
     "description": "Classic clam chowder in sourdough bread bowl and sea lions at Pier 39"
   },
@@ -139,8 +139,8 @@
     "day_index": 4,
     "timestamp_start_local_time": "2025-08-29T10:00:00-07:00",
     "referenced_item_type": "attraction",
-    "referenced_item_id": "golden-gate-park",
-    "title": "Japanese Tea Garden Visit",
+    "referenced_item_id": "golden-gate-park-and-japanese-tea-garden",
+    "title": "Golden Gate Park Visit",
     "description": "First public Japanese garden in America with authentic pagodas and koi ponds"
   },
   {

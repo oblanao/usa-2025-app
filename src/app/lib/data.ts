@@ -60,6 +60,12 @@ export async function getAttractionById(
   id: string,
 ): Promise<Attraction | undefined> {
   const attractions = await getAttractions();
+  // try to find by ID first
+  const attraction = attractions.find(attraction => attraction.id === id);
+  if (attraction) {
+    return attraction;
+  }
+  // if not found, try to find by name
   return attractions.find(attraction => attraction.name.toLowerCase().replace(/ /g, '-') === id);
 }
 
