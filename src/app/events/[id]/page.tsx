@@ -1,7 +1,6 @@
 import { getEventById, getReferencedItem } from "@/app/lib/data";
 import Header from "@/app/components/Header";
 import { notFound } from "next/navigation";
-import Image from "next/image";
 import {
   Clock,
   Calendar,

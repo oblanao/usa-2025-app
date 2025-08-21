@@ -4,7 +4,7 @@ import { useState } from "react";
 import FlightCard from "../components/FlightCard";
 import AccommodationCard from "../components/AccommodationCard";
 import AttractionCard from "../components/AttractionCard";
-import { Send, Home, MapPin, Calendar, Star, Search } from "react-feather";
+import { Send, Home, Calendar, Star, Search } from "react-feather";
 import Image from "next/image";
 import { Trip, Attraction } from "../lib/types";
 import { FlightData, AccommodationData } from "../lib/trip-types";

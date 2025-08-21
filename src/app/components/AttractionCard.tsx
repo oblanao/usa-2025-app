@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Clock, DollarSign, Star } from "react-feather";
+import { Clock, DollarSign, Star, ArrowRight } from "react-feather";
 import Image from "next/image";
+import Link from "next/link";
 import { Attraction } from "@/app/lib/types";
 
 type AttractionCardProps = {
@@ -115,6 +116,27 @@ const AttractionCard = ({ attraction, onClick }: AttractionCardProps) => {
             </ul>
           </div>
         )}
+
+        {/* View Details Button */}
+        <div className="mt-4 pt-3 border-t border-gray-100">
+          <Link
+            href={`/attractions/${
+              attraction.id || attraction.name.toLowerCase().replace(/ /g, "-")
+            }`}
+            className="group"
+          >
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="flex items-center justify-between p-3 bg-gradient-to-r from-accent/5 to-accent/10 hover:from-accent/10 hover:to-accent/20 rounded-lg border border-accent/20 hover:border-accent/30 transition-all duration-200"
+            >
+              <span className="text-sm font-semibold text-accent group-hover:text-accent/80 transition-colors">
+                View Details
+              </span>
+              <ArrowRight className="w-4 h-4 text-accent group-hover:text-accent/80 group-hover:translate-x-1 transition-all duration-200" />
+            </motion.div>
+          </Link>
+        </div>
       </div>
     </motion.div>
   );

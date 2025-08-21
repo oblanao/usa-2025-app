@@ -32,6 +32,7 @@ export type Place = {
 };
 
 export type Attraction = {
+  id: string;
   place: string;
   name: string;
   description: string;
@@ -101,6 +102,9 @@ export type Store = {
   name: string;
   type: string;
   website_link: string;
+  address: string;
+  brief_description: string;
+  hours_of_operation: string;
 };
 
 export type Trip = {
