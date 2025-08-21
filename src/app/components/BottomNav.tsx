@@ -8,7 +8,7 @@ const BottomNav = () => {
   const pathname = usePathname();
 
   const navItems = [
-    { href: "/", label: "Timeline", icon: Home },
+    { href: "/", label: "Home", icon: Home },
     { href: "/trip", label: "Trip Details", icon: Briefcase },
     { href: "/documents", label: "Documents", icon: FileText },
   ];
