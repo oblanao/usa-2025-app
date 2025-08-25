@@ -23,8 +23,25 @@ const AccommodationCard = ({
     };
     return placeNames[placeId] || placeId;
   };
-  const checkinDate = new Date(accommodation.timestamp_checkin_local_time);
-  const checkoutDate = new Date(accommodation.timestamp_checkout_local_time);
+
+  // Parse the timezone-aware timestamps properly
+  const parseLocalDateTime = (timestamp: string) => {
+    // Extract the date part (YYYY-MM-DD) from the timestamp
+    // This preserves the local date without timezone conversion
+    const dateMatch = timestamp.match(/^(\d{4}-\d{2}-\d{2})/);
+    if (dateMatch) {
+      return new Date(dateMatch[1] + "T00:00:00");
+    }
+    // Fallback to original parsing if regex fails
+    return new Date(timestamp);
+  };
+
+  const checkinDate = parseLocalDateTime(
+    accommodation.timestamp_checkin_local_time
+  );
+  const checkoutDate = parseLocalDateTime(
+    accommodation.timestamp_checkout_local_time
+  );
 
   const formatDate = (date: Date) => {
     return date.toLocaleDateString("en-US", {
