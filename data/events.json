@@ -81,9 +81,18 @@
     "description": "Classic clam chowder in sourdough bread bowl and sea lions at Pier 39"
   },
   {
-    "id": "event-010",
+    "id": "event-0091",
     "day_index": 2,
     "timestamp_start_local_time": "2025-08-27T14:30:00-07:00",
+    "referenced_item_type": "attraction",
+    "referenced_item_id": "powell-hyde-cable-car",
+    "title": "Powell-Hyde Cable Car Ride",
+    "description": "Ride the historic Powell-Hyde cable car, to the top of Lombard Street"
+  },
+  {
+    "id": "event-010",
+    "day_index": 2,
+    "timestamp_start_local_time": "2025-08-27T15:30:00-07:00",
     "referenced_item_type": "attraction",
     "referenced_item_id": "lombard-street",
     "title": "Lombard Street Visit",

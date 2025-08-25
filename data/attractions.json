@@ -30,7 +30,7 @@
     "type": "walk",
     "top_highlights": [
       "California sea lions at K-Dock",
-      "Aquarium of the Bay",
+      "Street performers",
       "Fresh Dungeness crab and clam chowder in sourdough bowls",
       "SkyStar observation wheel",
       "Historic carousel and street performers"
@@ -41,6 +41,27 @@
     "official_website_link": "https://www.pier39.com",
     "featured_image": "/images/attractions/fishermans-wharf.jpg",
     "images": ["https://placehold.co/800x600/FCBF49/000000?text=Sea+Lions"]
+  },
+  {
+    "id": "powell-hyde-cable-car",
+    "place": "san-francisco",
+    "name": "Powell-Hyde Cable Car Ride",
+    "description": "Arguably the most famous and scenic of San Francisco's three cable car lines, the Powell-Hyde route offers breathtaking views of the city's iconic landmarks. The journey takes passengers from the bustling Fisherman's Wharf area, up steep Russian Hill, past the crooked section of Lombard Street, and offers stunning panoramas of Alcatraz Island and San Francisco Bay before ending near Union Square. As a moving National Historic Landmark, it provides an unforgettable, open-air experience of the city's unique topography and charm.",
+    "did_you_know_fact": "San Francisco's cable cars use three separate braking systems: traditional wheel brakes, wooden track brakes, and a massive steel emergency brake that wedges into a slot between the rails.",
+    "type": "ride",
+    "top_highlights": [
+      "Unparalleled views of Alcatraz Island and the Bay",
+      "A stop directly at the top of the famous crooked Lombard Street",
+      "Climbing San Francisco's steepest hills",
+      "Riding on a moving National Historic Landmark",
+      "Watching the manual turnaround at the Powell & Market turntable"
+    ],
+    "cost": "$8 per ride",
+    "duration": "30 minutes",
+    "hours_of_operation": "7:00 AM - 10:30 PM daily",
+    "official_website_link": "https://www.sfmta.com/getting-around/muni/cable-cars",
+    "featured_image": "/images/attractions/powell-hyde-cable-car.jpg",
+    "images": ["https://placehold.co/800x600/D62828/FFFFFF?text=Cable+Car"]
   },
   {
     "place": "san-francisco",

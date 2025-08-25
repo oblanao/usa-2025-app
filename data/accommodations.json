@@ -11,7 +11,24 @@
     "contact_details": "Terry: +1 415-724-5770",
     "checkin_instructions": "Self check-in with lockbox. Host will provide code and detailed instructions 24 hours before arrival.",
     "free_cancellation": false,
-    "other_notes": "Maximum 4 guests, no pets allowed, no smoking inside but permitted on patio. Located in quiet residential area with excellent public transportation access."
+    "other_notes": "Maximum 4 guests, no pets allowed, no smoking inside but permitted on patio. Located in quiet residential area with excellent public transportation access.",
+    "communications": [
+      {
+        "type": "airbnb-dm",
+        "sender": "host",
+        "message": "Bogdan\nHere's the info you need:\n\nTwo doors with the same code:\nexterior doors#1 and interior door #2 = the last 6 digits of your contact phone number, then # .\n\nInterior door #3 takes you into the unit: 2018# to open and then # to lock.\n\nAlso: The bathroom sink has a push down/up function. After you shower, turn on the fan for 15 min. Iif you feel chilly, there is also a heater function.\nThere are extra blankets and throws in the black cabinets. We will generally turn on the house heater for a short time in the morning...expect a heater noise; but, it will blow warm air into the unit. Additionally, there are space heaters to warm you up.\nDo let us know if you have any problems and we will address them asap. We're just upstairs!\n\nLet us know if you have any issues!\n\nTerry and Ah Kit"
+      },
+      {
+        "type": "airbnb-dm",
+        "sender": "me",
+        "message": "Thank you for the information!"
+      },
+      {
+        "type": "airbnb-dm",
+        "sender": "host",
+        "message": "Bogdan\nOne way to get here:\nhttps://www.bart.gov/guide/airport/sfo\nBart train -8.50- to Civic Center, then Muni - N Car >outbound to Duboce and Noe....get off, x park and you're on Pierce St....we are a white house on the left.\n\nDownload the muni ap [SFMTA https://www.sfmta.com/getting-around/muni/fares/munimobile]\n\nOther way to get here:\nUber: $ 40 or so....20-30 min. 59 Pierce St. SF"
+      }
+    ]
   },
   {
     "id": "hnl-accommodation",
